@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Kategori_Kendaraan</name>
+   <tag></tag>
+   <elementGuidId>5b31d81f-340a-4d1b-a5ac-51f439edfb32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Kendaraan']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4b856244-891c-42ee-8adf-af7d98c93397</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false</value>
+      <webElementGuid>5e08b13f-b9ac-4daa-9ab9-83d5b25b1031</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/?category_id=2</value>
+      <webElementGuid>bda39d3f-3df7-48d7-845c-3462f180e9b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        
+        Kendaraan
+</value>
+      <webElementGuid>5dcd40a0-2f16-48c1-88b8-35ece90ef4ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container&quot;]/nav[@class=&quot;nav row gap-4 px-2 px-lg-0&quot;]/a[@class=&quot;btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center false&quot;]</value>
+      <webElementGuid>627ac055-0299-4b4c-b48f-2c76bc2c83c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kendaraan']/parent::*</value>
+      <webElementGuid>8996fdeb-d982-4d61-aca4-9ffaf78fc318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/?category_id=2')]</value>
+      <webElementGuid>02d0336d-b9e7-4552-abcc-b889ac4ada9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>255dd394-1580-489b-b730-00232b0f613f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/?category_id=2' and (text() = '
+        
+        Kendaraan
+' or . = '
+        
+        Kendaraan
+')]</value>
+      <webElementGuid>d292a879-b76b-4534-b4db-fd46501c43f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

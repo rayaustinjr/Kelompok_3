@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Kategori_Product</name>
+   <tag></tag>
+   <elementGuidId>f6c939ce-dcc3-49e5-a08c-6f187dc07bb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.card-text.text-black-50.text-small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='products']/div/a/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>8463c8cf-ea07-4376-8842-cb20a38ca00a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text text-black-50 text-small</value>
+      <webElementGuid>7de720db-5bc4-4363-a0a8-cbc4cb181396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Baju</value>
+      <webElementGuid>643ddcb4-948f-4c73-8afc-03ae580734f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]/p[@class=&quot;card-text text-black-50 text-small&quot;]</value>
+      <webElementGuid>99c223e7-d184-4b40-b6a1-e428468bac32</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='products']/div/a/div/div/p</value>
+      <webElementGuid>a2c0f126-a332-4eea-9386-6772eb2af12c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='asd'])[1]/following::p[1]</value>
+      <webElementGuid>d31985c9-e104-4d3c-a479-6135a4ff35ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1'])[1]/preceding::p[1]</value>
+      <webElementGuid>0e38be86-b17e-41b6-b59c-c76708e41929</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gajah'])[1]/preceding::p[1]</value>
+      <webElementGuid>a10a589f-71f2-44c8-94d3-c7866317565b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>3c1e005e-f4fa-4d4b-a41c-94fd06e532ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Baju' or . = 'Baju')]</value>
+      <webElementGuid>7f572f94-b418-49e3-9e3c-135c6caf7d1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
