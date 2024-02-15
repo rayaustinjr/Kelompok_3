@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>deskripsi</name>
+   <tag></tag>
+   <elementGuidId>ec8e0706-7a3a-4ecb-8105-8160c5ffd222</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.card-text.text-black-50.fs-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>28ce1fc3-ae3f-4774-854b-128411f747da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text text-black-50 fs-6</value>
+      <webElementGuid>1a4e4c01-5dbf-4603-8a5f-cfb60652d076</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1231</value>
+      <webElementGuid>53731952-6f33-44ef-9b86-83d0aa8a0f87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;card mt-5 p-2 border border-4 border-light rounded-4&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-text text-black-50 fs-6&quot;]</value>
+      <webElementGuid>4b32e59f-d4fc-4fcb-b615-4a5598ed5698</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::p[1]</value>
+      <webElementGuid>97aa4113-220f-43f7-9818-080f4c102da4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product was successfully updated.'])[1]/following::p[1]</value>
+      <webElementGuid>b3e733ca-6e8c-4d63-b077-c79face86884</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='yah'])[1]/preceding::p[1]</value>
+      <webElementGuid>bfc90d2e-0d85-4dab-9a71-d074c747f709</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::p[3]</value>
+      <webElementGuid>87f9949d-460b-4111-a10e-d8ef77b18649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1231']/parent::*</value>
+      <webElementGuid>1f3e1718-a940-4988-9653-5a3585c9f364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>54f90d17-0a6a-446c-83d5-1ef2e37135cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1231' or . = '1231')]</value>
+      <webElementGuid>c6a6b371-62ac-4ef0-b33d-19e4e4749c97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

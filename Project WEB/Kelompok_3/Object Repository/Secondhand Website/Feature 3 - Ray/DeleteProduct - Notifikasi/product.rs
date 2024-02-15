@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product</name>
+   <tag></tag>
+   <elementGuidId>6e4c411f-7ffb-4f33-900e-37c0acc9d205</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title.fs-5.fw-bolder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::h5[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>c56c5fba-8609-4055-9b83-33ba3dc208d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title fs-5 fw-bolder</value>
+      <webElementGuid>354b2a6f-a4b3-4031-90b1-aeb6a144d6d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>yah</value>
+      <webElementGuid>79b99893-9c5f-417f-8781-47105bf59274</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title fs-5 fw-bolder&quot;]</value>
+      <webElementGuid>b3144b64-7593-4320-a4d3-4402517d87e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::h5[1]</value>
+      <webElementGuid>6200daa6-8eed-4ce5-90a4-a8f725636d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product was successfully updated.'])[1]/following::h5[2]</value>
+      <webElementGuid>225acddc-9e6d-4201-bc8e-874bb177c02a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::h5[1]</value>
+      <webElementGuid>e5bda873-d8cd-455c-9675-13b7a6ce192b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::h5[1]</value>
+      <webElementGuid>b40a08df-8a5f-4946-8890-8bf45c5aae4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/h5</value>
+      <webElementGuid>1ad82ab3-b027-4b3b-90eb-8c3551b497ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'yah' or . = 'yah')]</value>
+      <webElementGuid>19657f4c-f780-41cc-8c51-c347201073d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
