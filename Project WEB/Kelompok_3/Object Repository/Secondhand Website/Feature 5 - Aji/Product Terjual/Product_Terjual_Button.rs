@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Product_Terjual_Button</name>
+   <tag></tag>
+   <elementGuidId>06f9db1d-429a-4cec-932f-db97a80c7ec8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Diminati'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.d-flex.py-3.active > span.me-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>34550cf3-47f5-4f41-aca4-593ed8ac305d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>me-auto</value>
+      <webElementGuid>ec0c026a-d472-40d1-9166-fd5b07030919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terjual</value>
+      <webElementGuid>4fbacd09-5e9d-4d7d-9207-ec30d5ba36d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row my-5&quot;]/div[@class=&quot;col-12 col-lg-3&quot;]/div[@class=&quot;card border-0 rounded-4 shadow p-4&quot;]/ul[@class=&quot;nav flex-column&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link d-flex py-3 active&quot;]/span[@class=&quot;me-auto&quot;]</value>
+      <webElementGuid>265c2c23-8a54-4088-b1a5-0015721e25c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diminati'])[1]/following::span[1]</value>
+      <webElementGuid>59d9988d-19a3-4e8d-aa33-52a6d3b31e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Produk'])[1]/following::span[2]</value>
+      <webElementGuid>84c8083b-e6e3-4d68-8910-b8e7d84f9c41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aaaa'])[1]/preceding::span[1]</value>
+      <webElementGuid>6579b750-ed0c-4ac0-b8d3-4b8a2f851efd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 23'])[1]/preceding::span[1]</value>
+      <webElementGuid>a0707266-54ce-4d84-9e0a-f513f076891d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terjual']/parent::*</value>
+      <webElementGuid>6629e9ca-eba5-460c-8147-76617810273c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/span</value>
+      <webElementGuid>97575a53-3722-43ad-8e81-9a7e6f6e67c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Terjual' or . = 'Terjual')]</value>
+      <webElementGuid>bcec5a33-1b4a-4ae6-851c-51ee4cd5a9fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
