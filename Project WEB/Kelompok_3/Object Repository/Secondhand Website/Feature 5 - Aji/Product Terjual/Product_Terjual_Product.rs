@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product_Terjual</name>
+   <name>Product_Terjual_Product</name>
    <tag></tag>
    <elementGuidId>bf802638-a1af-4dbe-844e-413b5ace1a80</elementGuidId>
    <selectorCollection>

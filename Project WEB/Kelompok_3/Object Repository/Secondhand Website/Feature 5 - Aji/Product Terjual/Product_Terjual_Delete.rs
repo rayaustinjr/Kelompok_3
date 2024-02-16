@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product_Edit_Terjual</name>
+   <name>Product_Terjual_Delete</name>
    <tag></tag>
-   <elementGuidId>47b70441-7506-4a95-a7d6-47699359e2b2</elementGuidId>
+   <elementGuidId>75b61c37-0bfd-4a84-bb79-1e1efc97bc11</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Edit')]</value>
+         <value>//a[contains(text(),'Delete')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.btn.btn-lg.btn-outline-primary.fs-6.rounded-4.w-100.py-3.fw-bold</value>
+         <value>a.btn.btn-lg.btn-danger.fs-6.rounded-4.w-100.py-3.fw-bold.mt-3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,110 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4180d990-8ab6-40b4-8584-54101fc72dd7</webElementGuid>
+      <webElementGuid>e28a3719-6c03-4e87-8eb8-9cbea4fd73a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-turbo-method</name>
+      <type>Main</type>
+      <value>delete</value>
+      <webElementGuid>f89ebf52-b408-41f7-be2d-fe914fe1a909</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-lg btn-outline-primary fs-6 rounded-4 w-100 py-3 fw-bold</value>
-      <webElementGuid>2d27ef3d-4e3e-47f0-b60e-f27a74627f77</webElementGuid>
+      <value>btn btn-lg btn-danger fs-6 rounded-4 w-100 py-3 fw-bold mt-3</value>
+      <webElementGuid>837c3dea-39c4-4024-8173-435c0000ab94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/products/100651/edit</value>
-      <webElementGuid>25da7236-79d3-4dec-bbb9-0d1112f3b00b</webElementGuid>
+      <value>/products/100651</value>
+      <webElementGuid>3183929b-1434-4637-9ea7-0a6aca088dc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>b31d099c-1cb2-4d92-aa4d-afc9285748a3</webElementGuid>
+      <value>Delete</value>
+      <webElementGuid>a9664e1d-e871-4038-ae7b-e59b1bd80210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/a[@class=&quot;btn btn-lg btn-outline-primary fs-6 rounded-4 w-100 py-3 fw-bold&quot;]</value>
-      <webElementGuid>ccfb2d5d-5a50-4003-909d-fcf2ebb14633</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/a[@class=&quot;btn btn-lg btn-danger fs-6 rounded-4 w-100 py-3 fw-bold mt-3&quot;]</value>
+      <webElementGuid>acddfd17-0f64-4659-ab16-856c8b003464</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Edit')]</value>
-      <webElementGuid>f93ca903-d85e-4ff2-ac1e-c8adeb5382f0</webElementGuid>
+      <value>//a[contains(text(),'Delete')]</value>
+      <webElementGuid>d45fdb53-c749-449b-a9c7-2a158dd19062</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aaaa'])[1]/following::a[1]</value>
-      <webElementGuid>4c508384-625f-4ebe-bee1-13585262928e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
+      <webElementGuid>bc054b12-7ffc-43fe-aa9d-ec0225c4d5ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::a[1]</value>
-      <webElementGuid>8ee91cad-548c-4b8a-b9cc-1a604f74cd09</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aaaa'])[1]/following::a[2]</value>
+      <webElementGuid>eeca46b5-979d-42d1-97dc-f2724de8ef8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::a[1]</value>
-      <webElementGuid>335f59ed-a681-4569-b340-32067edc25ac</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='abdul'])[2]/preceding::a[1]</value>
+      <webElementGuid>05dc5528-fc5b-4dd5-bcb6-ebaaa6e3290c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abdul'])[2]/preceding::a[2]</value>
-      <webElementGuid>6c4878ba-179e-4f63-b2e4-8556b8a6de51</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solo'])[2]/preceding::a[1]</value>
+      <webElementGuid>85bc35ed-7382-4bca-a2db-f6dae5a23a4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>5c4349fe-3cc9-490b-8be9-396a9608b235</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>8475c250-02aa-4c98-b4e3-ee38c1c38340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/products/100651/edit')]</value>
-      <webElementGuid>5d284315-dd29-4287-9ba7-54e93b0d1a36</webElementGuid>
+      <value>(//a[contains(@href, '/products/100651')])[3]</value>
+      <webElementGuid>09b4ede2-e80c-4f5c-a8d6-37cff125f823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/a</value>
-      <webElementGuid>d0a59d27-30b7-4706-940b-63cb6431bce8</webElementGuid>
+      <value>//a[2]</value>
+      <webElementGuid>3317aaf0-5077-4767-b3ab-559f893e56c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/products/100651/edit' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>4e6d0931-4e40-40d7-8979-7225fcd27bdc</webElementGuid>
+      <value>//a[@href = '/products/100651' and (text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>81299b90-19ad-4e58-b610-cce2b8743cfa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
