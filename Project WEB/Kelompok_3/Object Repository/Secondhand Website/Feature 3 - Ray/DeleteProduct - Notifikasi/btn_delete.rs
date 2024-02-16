@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>delete_product</name>
+   <name>btn_delete</name>
    <tag></tag>
    <elementGuidId>7c3b96ca-653d-4861-8d8e-2741eb6d7678</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-lg.btn-danger.fs-6.rounded-4.w-100.py-3.fw-bold.mt-3</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Delete')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-lg.btn-danger.fs-6.rounded-4.w-100.py-3.fw-bold.mt-3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
