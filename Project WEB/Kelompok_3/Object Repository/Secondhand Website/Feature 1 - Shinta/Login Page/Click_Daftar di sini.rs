@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Link_Daftar di sini</name>
+   <name>Click_Daftar di sini</name>
    <tag></tag>
    <elementGuidId>cd8d139a-e036-4955-b5c1-97946e9cce8a</elementGuidId>
    <selectorCollection>
