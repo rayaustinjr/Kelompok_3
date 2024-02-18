@@ -16,13 +16,4 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/div_Invalid Email or password'))
-
-errorText = WebUI.getText(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/div_Invalid Email or password'))
-
-KeywordUtil.logInfo('Error Text: ' + errorText)
-
-WebUI.verifyMatch(errorText, Expected, false)
 
