@@ -17,5 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/input_Email_useremail'), email)
+WebUI.openBrowser(GlobalVariable.G_Url)
+
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/span_Masuk_navbar-toggler-icon'))
+
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Button_Masuk'))
+
+WebUI.navigateToUrl(GlobalVariable.G_Url_Login)
 

@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/input_Email_useremail'), email)
+WebUI.navigateToUrl(GlobalVariable.G_Url)
 

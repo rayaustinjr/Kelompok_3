@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG004 - User login without input user email</name>
+   <name>Click Button Masuk</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c7fefff7-368d-433c-99a6-28874db3d87b</testCaseGuid>
+   <testCaseGuid>5ff0d5ad-d69a-44f7-8081-bc46f63dbc32</testCaseGuid>
 </TestCaseEntity>

@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f253058a-52d6-4178-9278-bd7c67c8530f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a0cad52-05c6-4fdf-81f9-aa192187f41b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'try@mail.com'</defaultValue>
+      <description></description>
+      <id>2a0cad52-05c6-4fdf-81f9-aa192187f41b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
 </TestCaseEntity>
