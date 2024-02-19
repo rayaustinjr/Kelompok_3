@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG002 - User login with unregistered email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb1ed0a1-c7ff-4221-aa45-871757e72ea5</testCaseGuid>
+</TestCaseEntity>
