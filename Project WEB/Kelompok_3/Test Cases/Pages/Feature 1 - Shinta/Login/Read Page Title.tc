@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG005 - User login without input password</name>
+   <name>Read Page Title</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>09914db8-7ed9-4b7d-a94e-6c05b69c9507</testCaseGuid>
+   <testCaseGuid>2c518344-4a61-4ea5-a63b-5b4a710940ee</testCaseGuid>
 </TestCaseEntity>

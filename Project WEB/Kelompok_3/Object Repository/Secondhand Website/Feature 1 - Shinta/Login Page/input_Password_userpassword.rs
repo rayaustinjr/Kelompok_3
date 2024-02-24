@@ -6,15 +6,19 @@
    <elementGuidId>9dec178f-f518-4061-aa70-69c7703f416c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='user_password']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#user_password</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Masukkan password' and @type = 'password' and @name = 'user[password]' and @id = 'user_password']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='user_password']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4817c4d0-1f74-4c0b-9604-462ab6a9dd2b</webElementGuid>
+      <webElementGuid>60e4fef1-cbe0-4f88-a729-0f90a48b7725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>required</name>
       <type>Main</type>
       <value>required</value>
-      <webElementGuid>afb9f672-77df-4141-800d-9ade21c841dd</webElementGuid>
+      <webElementGuid>c4e81d50-277d-4469-9b53-884f30ea0aee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>current-password</value>
-      <webElementGuid>04c0da65-3b4b-4eff-a0e0-e9a407ba9301</webElementGuid>
+      <webElementGuid>be7e6cd4-3ff4-4b67-b467-901960d043e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control rounded-4 p-3</value>
-      <webElementGuid>5e6e2180-c80a-4974-baa0-b7ecf026ac78</webElementGuid>
+      <webElementGuid>f1519eef-b9da-4f90-8744-4736b47ca23c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan password</value>
-      <webElementGuid>9b39d7fc-3542-4a59-90d1-f36b0e317c8f</webElementGuid>
+      <webElementGuid>d7baf7ec-315a-4f7c-829e-c8d7c7e6fd4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>79cae9d2-a4bd-46ae-9a25-22fc49ae54e4</webElementGuid>
+      <webElementGuid>d6137a15-7dba-4bb7-80f1-edffa4eaa8ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>name</name>
       <type>Main</type>
       <value>user[password]</value>
-      <webElementGuid>491842b6-f15f-4199-89d1-d856ae704dd8</webElementGuid>
+      <webElementGuid>73bc5658-4cbd-4fb9-81af-f2412c59c92f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>id</name>
       <type>Main</type>
       <value>user_password</value>
-      <webElementGuid>db327b18-0829-4a3a-9d3e-33e2ab03031e</webElementGuid>
+      <webElementGuid>7548af03-6e94-43d1-b67a-c02747ab3e6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;user_password&quot;)</value>
-      <webElementGuid>24c82650-cb11-44bc-bd56-a8a5f0843052</webElementGuid>
+      <webElementGuid>c0a4186f-038b-4147-8ae0-0df78706ad30</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='user_password']</value>
-      <webElementGuid>065e8aee-3fd1-48ba-b916-54357641ffee</webElementGuid>
+      <webElementGuid>b33940c0-abd7-4c1c-932e-898e86b29681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='new_user']/div[2]/input</value>
-      <webElementGuid>d18d6898-b65e-43ca-8c89-83fb0b0cc509</webElementGuid>
+      <webElementGuid>166869bc-89f4-4158-8fc5-4db39737762f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>d36201f7-7098-4dce-b974-c5da78809e12</webElementGuid>
+      <webElementGuid>f3bfc451-05a7-42b9-8a58-0ee32964edfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan password' and @type = 'password' and @name = 'user[password]' and @id = 'user_password']</value>
-      <webElementGuid>58ea8822-8b30-4e94-a8f5-af793447fb50</webElementGuid>
+      <webElementGuid>02ad00c6-410b-430a-902a-2cc651c115b6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
