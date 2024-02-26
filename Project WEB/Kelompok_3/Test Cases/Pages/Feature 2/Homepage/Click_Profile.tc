@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click_Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1345b8d1-b8fe-470f-9d45-43bb63794fc0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b02de4c-9be8-49ec-8f98-7b213b2534da</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>3b02de4c-9be8-49ec-8f98-7b213b2534da</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
