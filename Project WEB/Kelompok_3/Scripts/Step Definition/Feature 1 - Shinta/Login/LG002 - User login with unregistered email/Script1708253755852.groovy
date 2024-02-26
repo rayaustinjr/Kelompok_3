@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Unregistered Email'), [('unregistered_email') : 'coba@a.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
