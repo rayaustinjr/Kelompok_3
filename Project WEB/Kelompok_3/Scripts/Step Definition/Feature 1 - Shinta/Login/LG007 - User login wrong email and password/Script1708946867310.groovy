@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Verify Content')
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Unregistered Email'), [('unregistered_email') : 'coba@a.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Correct Password'), [('password') : 'try'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Wrong Password'), [('wrong_password') : 'coba'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click_btn_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
