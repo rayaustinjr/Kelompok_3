@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Product Name</name>
+   <tag></tag>
+   <elementGuidId>694ac82b-b3cf-4f60-ad1b-b720c134dc65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h5[(text() = '${productName}' or . = '${productName}')]/ancestor::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>12752e66-734d-411e-84d6-75b66e4fe91a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>207a2747-1b88-46c3-ad5e-71b88df1a8a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>yaQAu</value>
+      <webElementGuid>c6c8e8ed-ac16-46c0-8758-d08fc7cae001</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]/h5[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>a38d64c1-6f91-4c4f-a7e5-f5be1a856a55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='products']/div/a/div/div/h5</value>
+      <webElementGuid>682377ec-ebd3-4cab-92d6-96787505a800</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1'])[1]/preceding::h5[1]</value>
+      <webElementGuid>a5aec6b3-c794-4334-ab9b-2da888f78eb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LgpJu'])[1]/preceding::h5[2]</value>
+      <webElementGuid>5927bf60-7147-4f42-9563-2c32ecea4ada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='yaQAu']/parent::*</value>
+      <webElementGuid>e8c2ce60-cde7-4939-ae24-572f033e7c28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div/h5</value>
+      <webElementGuid>09e953ce-0d28-499f-bf63-f763c61f0689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'yaQAu' or . = 'yaQAu')]</value>
+      <webElementGuid>3dbf16ab-169d-4d9c-9ec6-ae8574db2e98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

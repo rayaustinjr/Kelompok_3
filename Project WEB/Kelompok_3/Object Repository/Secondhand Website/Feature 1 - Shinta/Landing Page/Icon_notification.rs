@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon_notification</name>
+   <tag></tag>
+   <elementGuidId>0fa1b791-0529-4c26-a4cc-92587e018232</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.dropdown-toggle.position-relative</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4b97b222-02d9-4bdb-9e52-51511ee6b434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link dropdown-toggle position-relative</value>
+      <webElementGuid>75ec141b-05a7-4ca5-97d4-280f2e3d04c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>d4a6d0f1-0dd8-42ef-a0cb-52575ba0011a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8d74a666-2e3a-458d-a9e6-822e02166116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>1f75dbac-656f-4f49-a2fc-8f6e92550d50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown me-0 me-lg-2 fs-5 d-none d-xl-block position-relative&quot;]/a[@class=&quot;nav-link dropdown-toggle position-relative&quot;]</value>
+      <webElementGuid>85af4875-2e4d-4e15-8d21-dc5d3dd0ddf9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li[3]/a</value>
+      <webElementGuid>b73092d4-1ae6-4f6d-9f45-be2971c48f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::a[1]</value>
+      <webElementGuid>0431925e-359a-4bed-8873-365ea4d4c730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produk Saya'])[1]/following::a[2]</value>
+      <webElementGuid>a2a3f0ae-3cba-4932-a0fe-a8077c173698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak ada notifikasi'])[1]/preceding::a[1]</value>
+      <webElementGuid>443ade02-2190-4d9c-bf0a-5de61a2bc9ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Saya'])[1]/preceding::a[1]</value>
+      <webElementGuid>2138b9e4-9b9e-49ae-b249-cf82e962ef13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>59fddb90-a881-478e-9509-47c11cc3e7a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>6fa94bfa-d2a3-4759-bd5b-61e0af8269be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#']</value>
+      <webElementGuid>7e953460-bb17-42ba-be46-018c3c9c599e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

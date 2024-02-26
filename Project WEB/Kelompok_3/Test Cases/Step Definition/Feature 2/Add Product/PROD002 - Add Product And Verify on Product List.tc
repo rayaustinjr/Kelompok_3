@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROD002 - Add Product And Verify on Product List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd5249c2-2482-45cb-af4f-2e340fc85da6</testCaseGuid>
+</TestCaseEntity>
