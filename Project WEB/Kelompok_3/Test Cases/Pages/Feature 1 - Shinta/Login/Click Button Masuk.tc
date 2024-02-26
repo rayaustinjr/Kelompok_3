@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG005 - User login without input password</name>
+   <name>Click Button Masuk</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>09914db8-7ed9-4b7d-a94e-6c05b69c9507</testCaseGuid>
+   <testCaseGuid>5ff0d5ad-d69a-44f7-8081-bc46f63dbc32</testCaseGuid>
 </TestCaseEntity>

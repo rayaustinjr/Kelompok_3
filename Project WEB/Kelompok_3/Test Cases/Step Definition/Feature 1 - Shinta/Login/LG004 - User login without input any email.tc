@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG004 - User login without input any email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7fefff7-368d-433c-99a6-28874db3d87b</testCaseGuid>
+</TestCaseEntity>

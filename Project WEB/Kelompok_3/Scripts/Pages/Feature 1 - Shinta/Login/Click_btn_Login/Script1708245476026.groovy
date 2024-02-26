@@ -17,15 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/btn_masuk'))
-
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/Click_Daftar di sini'))
-
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/input_Email_useremail'))
-
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/input_Password_userpassword'))
-
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/Logo_Masuk'))
-
-WebUI.verifyElementVisible(findTestObject(null))
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/btn_masuk'))
 
