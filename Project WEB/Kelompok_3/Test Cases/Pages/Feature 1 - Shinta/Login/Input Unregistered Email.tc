@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>03dbab3a-460c-4801-9bec-8f5ffd6b738b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc202395-43c0-433c-8750-1be01b6ed2af</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'coba@a.com'</defaultValue>
+      <description></description>
+      <id>dc202395-43c0-433c-8750-1be01b6ed2af</id>
+      <masked>false</masked>
+      <name>unregistered_email</name>
+   </variable>
 </TestCaseEntity>
