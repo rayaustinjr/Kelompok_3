@@ -12,7 +12,7 @@
       <variableId>6e4db8e7-778d-4cef-941e-f5464d398208</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Invalid Email or password.'</defaultValue>
       <description></description>
       <id>6e4db8e7-778d-4cef-941e-f5464d398208</id>
       <masked>false</masked>

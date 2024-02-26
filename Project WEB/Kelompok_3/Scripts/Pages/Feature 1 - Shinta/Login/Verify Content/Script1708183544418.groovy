@@ -25,5 +25,5 @@ WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta
 
 WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/Logo_Masuk'))
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/Link_Daftar di sini'))
+WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Login Page/Click_Daftar di sini'))
 
