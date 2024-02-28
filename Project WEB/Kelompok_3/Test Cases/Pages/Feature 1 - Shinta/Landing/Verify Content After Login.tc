@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG006 - User login without input email and password</name>
+   <name>Verify Content After Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ad5580b5-76f4-41b4-9f77-f560d1fcf4c7</testCaseGuid>
+   <testCaseGuid>043c0c39-6524-44c1-a083-e55dad1b345c</testCaseGuid>
 </TestCaseEntity>

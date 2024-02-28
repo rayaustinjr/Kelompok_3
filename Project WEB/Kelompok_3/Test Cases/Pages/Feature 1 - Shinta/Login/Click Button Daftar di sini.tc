@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG006 - User login without input email and password</name>
+   <name>Click Button Daftar di sini</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ad5580b5-76f4-41b4-9f77-f560d1fcf4c7</testCaseGuid>
+   <testCaseGuid>8bcb230a-fb2f-4f5d-946a-9f7ebcfe6897</testCaseGuid>
 </TestCaseEntity>
