@@ -18,17 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.setText(findTestObject('Secondhand Website/Add Product/Field Product Name'), productName)
+WebUI.setText(findTestObject('Secondhand Website/Feature 2/Add Product/Field Product Name'), productName)
 
-WebUI.setText(findTestObject('Secondhand Website/Add Product/Field Product Price'), productPrice)
+WebUI.setText(findTestObject('Secondhand Website/Feature 2/Add Product/Field Product Price'), productPrice)
 
-WebUI.selectOptionByLabel(findTestObject('Secondhand Website/Add Product/Select Option Category'), productCategory, false)
+WebUI.selectOptionByLabel(findTestObject('Secondhand Website/Feature 2/Add Product/Select Option Category'), productCategory, 
+    false)
 
-WebUI.setText(findTestObject('Secondhand Website/Add Product/Text Area'), description)
+WebUI.setText(findTestObject('Secondhand Website/Feature 2/Add Product/Text Area'), description)
 
 imgDir = (RunConfiguration.getProjectDir() + '/ImageUpload/product.jpg')
 
-WebUI.uploadFile(findTestObject('Secondhand Website/Add Product/Image Upload'), imgDir)
+WebUI.uploadFile(findTestObject('Secondhand Website/Feature 2/Add Product/Image Upload'), imgDir)
 
-WebUI.click(findTestObject('Secondhand Website/Add Product/Btn Publish'))
+WebUI.click(findTestObject('Secondhand Website/Feature 2/Add Product/Btn Publish'))
 

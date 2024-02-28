@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Notification Page/Product Name', [('productName') : productName]))
+WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 2/Notification Page/Product Name'))
 

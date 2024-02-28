@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Secondhand Website/Notification Page/Product Name', [('productName') : productName]))
+WebUI.click(findTestObject('Secondhand Website/Feature 2/Notification Page/Product Name'))
 
