@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG006 - User login without input email and password</name>
+   <name>REG002 - Register with registered email account</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ad5580b5-76f4-41b4-9f77-f560d1fcf4c7</testCaseGuid>
+   <testCaseGuid>5a144945-3321-4f24-b081-dd9daa3eca98</testCaseGuid>
 </TestCaseEntity>

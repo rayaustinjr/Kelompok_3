@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG006 - User login without input email and password</name>
+   <name>Click_Btn_Notifikasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ad5580b5-76f4-41b4-9f77-f560d1fcf4c7</testCaseGuid>
+   <testCaseGuid>0bcc93eb-c923-4df0-9aac-e93f101bfece</testCaseGuid>
 </TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG006 - User login without input email and password</name>
+   <name>LO001 - User logout after login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ad5580b5-76f4-41b4-9f77-f560d1fcf4c7</testCaseGuid>
+   <testCaseGuid>6a9d3136-9d11-4db3-bc72-e763ceab0887</testCaseGuid>
 </TestCaseEntity>

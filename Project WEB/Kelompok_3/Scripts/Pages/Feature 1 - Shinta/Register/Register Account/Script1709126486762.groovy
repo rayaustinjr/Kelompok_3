@@ -16,16 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Name'), username)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Email_useremail'), email)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Registered Email'), [('email') : 'try@mail.com'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Password_userpassword'), password)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click_btn_Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('null'), [('message') : 'Please fill out this field.'
-        , ('expected') : [('') : message]], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/btn_daftar'))
 
