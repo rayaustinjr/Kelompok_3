@@ -16,6 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Icon_account'))
+WebUI.callTestCase(findTestCase('Step Definition/Feature 1 - Shinta/Register/REG001 - Register with fresh account'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Click Icon Account and Username'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String address = RandomStringUtils.randomAlphabetic(12) + RandomStringUtils.randomNumeric(3)
+
+String No_HP = RandomStringUtils.randomNumeric(12)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Input Address'), [('address') : address], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Input Phone Number'), [('No_HP') : No_HP], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Upload Photo Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Select Option City'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Click Save Button'), [:], FailureHandling.STOP_ON_FAILURE)
 

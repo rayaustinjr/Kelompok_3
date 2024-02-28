@@ -12,7 +12,7 @@
       <variableId>26dd2681-8cbd-4562-8e54-86d77d368e7f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Kota Bandung'</defaultValue>
+      <defaultValue>[:]</defaultValue>
       <description></description>
       <id>26dd2681-8cbd-4562-8e54-86d77d368e7f</id>
       <masked>false</masked>
