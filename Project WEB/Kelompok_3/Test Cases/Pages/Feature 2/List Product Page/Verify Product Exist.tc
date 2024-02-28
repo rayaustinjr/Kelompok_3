@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Product Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c20d8541-d44e-4b47-b90d-944e926cad4a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d4596ff-9f86-4aa2-8d71-15057e2c0519</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d4596ff-9f86-4aa2-8d71-15057e2c0519</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>

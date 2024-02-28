@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Product Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d5fb810-b904-4d7e-9093-040ff42ea349</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4aabfda-3c5b-45ac-b85c-b365c2c4abf2</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>
