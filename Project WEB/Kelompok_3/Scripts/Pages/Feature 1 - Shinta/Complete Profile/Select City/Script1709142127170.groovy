@@ -17,5 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByIndex(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/select_kota'), null)
+WebUI.selectOptionByLabel(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/select_kota'), City, 
+    false)
 

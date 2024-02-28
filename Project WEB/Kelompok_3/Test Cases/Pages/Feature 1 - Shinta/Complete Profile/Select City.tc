@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Input Phone Number</name>
+   <name>Select City</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>055a4286-7fd4-4f6b-9e37-8ed17f965e2c</testCaseGuid>
+   <testCaseGuid>169fd8c7-dda7-4ae1-8fe5-755f0ee75158</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b4e15eb8-638a-4317-b198-3344c92c210e</variableId>
+      <variableId>15db2f2a-57ea-4b25-8899-ea54c76897d6</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>[:]</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>b4e15eb8-638a-4317-b198-3344c92c210e</id>
+      <id>15db2f2a-57ea-4b25-8899-ea54c76897d6</id>
       <masked>false</masked>
-      <name>NoHP</name>
+      <name>City</name>
    </variable>
 </TestCaseEntity>

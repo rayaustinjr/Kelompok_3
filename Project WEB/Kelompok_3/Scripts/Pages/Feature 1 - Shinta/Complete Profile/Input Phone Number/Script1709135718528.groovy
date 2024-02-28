@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/input_no_hp'), No_HP)
-
-String No_HP = RandomStringUtils.randomNumeric(12)
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/input_no_hp'), NoHP)
 

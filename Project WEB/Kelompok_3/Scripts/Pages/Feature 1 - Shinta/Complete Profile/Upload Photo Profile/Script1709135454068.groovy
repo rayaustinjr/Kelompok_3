@@ -20,5 +20,5 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 imgDir = (RunConfiguration.getProjectDir() + '/ImageUpload/profile.png')
 
-WebUI.uploadFile(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/tag_photo_profile'), 'imgDir')
+WebUI.uploadFile(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/tag_photo_profile'), imgDir)
 

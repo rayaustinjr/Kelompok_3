@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CP001 - User complete profile successful</name>
+   <name>CP001 - User successful to complete profile by fill every field and upload Profile Picture</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5a5e94bf-4981-4356-aac7-610538f71a60</testCaseGuid>
