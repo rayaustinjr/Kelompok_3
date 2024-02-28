@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Secondhand Website/Homepage/Btn_Masuk'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Button_Masuk'), FailureHandling.STOP_ON_FAILURE)
 

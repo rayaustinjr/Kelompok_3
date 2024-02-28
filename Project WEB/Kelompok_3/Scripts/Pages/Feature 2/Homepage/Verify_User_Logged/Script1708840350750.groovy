@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Homepage/Btn_Jual'))
+WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Button_Jual'))
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Homepage/Icon_account'))
+WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Icon_account'))
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Homepage/Icon_list_product'))
+WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Icon_list_product'))
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Homepage/Icon_notification'))
+WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Icon_notification'))
 

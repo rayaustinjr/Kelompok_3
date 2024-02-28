@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Secondhand Website/Detail Product Page/Btn Offer'))
+WebUI.click(findTestObject('Secondhand Website/Feature 2/Detail Product Page/Btn Offer'))
 
-WebUI.setText(findTestObject('Secondhand Website/Detail Product Page/Offer Price'), offerPrice)
+WebUI.setText(findTestObject('Secondhand Website/Feature 2/Detail Product Page/Offer Price'), offerPrice)
 
-WebUI.click(findTestObject('Secondhand Website/Detail Product Page/Btn Submit Offer'))
+WebUI.click(findTestObject('Secondhand Website/Feature 2/Detail Product Page/Btn Submit Offer'))
 
