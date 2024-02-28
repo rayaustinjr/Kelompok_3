@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d80d14c5-c3cc-441d-90ed-ee8e5e5964a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29cf96ea-9a10-4df3-beca-22c30ca327e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Email has already been taken.'</defaultValue>
+      <description></description>
+      <id>29cf96ea-9a10-4df3-beca-22c30ca327e6</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
 </TestCaseEntity>

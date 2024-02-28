@@ -6,15 +6,19 @@
    <elementGuidId>fee6614b-39a9-44c4-9285-2c2e42906409</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form-avatar-input']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'form-avatar-input']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#form-avatar-input</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='form-avatar-input']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>116c13f1-52bb-48ba-9766-a0749541fd88</webElementGuid>
+      <webElementGuid>effef167-652e-4618-9509-4b38b0c28170</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-avatar rounded-4 text-primary bg-alt-primary p-5</value>
-      <webElementGuid>e20707e0-43c0-4acc-b73f-408b33b0391f</webElementGuid>
+      <webElementGuid>d2552224-e40d-4920-a6b6-b01f70014809</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form-avatar-input</value>
-      <webElementGuid>b5508de5-6fe2-4bfa-be67-1b1bcecec194</webElementGuid>
+      <webElementGuid>431c9040-fd1e-46cc-ac1a-a2ebcfdd4245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form-avatar-input&quot;)</value>
-      <webElementGuid>7b628cb0-0975-4f15-b17e-ce31c7dd05dd</webElementGuid>
+      <webElementGuid>af20ec9b-fd05-4294-b3b6-8588631f95bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='form-avatar-input']</value>
-      <webElementGuid>1858695e-a5a5-40ab-9900-07c51b8c3046</webElementGuid>
+      <webElementGuid>d6ff7e21-37fe-4520-a3e3-4eb6e86f297d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form-avatar-view']/div</value>
-      <webElementGuid>044a5d50-f5d5-40ea-8e96-5da681e5575a</webElementGuid>
+      <webElementGuid>8d0bd66e-7158-43bd-b72b-7268cc1eaa13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Info Akun'])[1]/following::div[5]</value>
-      <webElementGuid>a954360a-185e-4c9a-bbf1-1a67e87b61be</webElementGuid>
+      <webElementGuid>26ac56d0-e9c1-4b65-bff0-9a6f174b6c5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::div[1]</value>
-      <webElementGuid>2c5b2323-7bfa-4cd4-9372-b3a2097e3ea0</webElementGuid>
+      <webElementGuid>940b029c-1e8d-4de8-ae65-a0e1fc6a2d3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/preceding::div[2]</value>
-      <webElementGuid>1fe64407-38e9-4721-9dbb-94073b1e8f18</webElementGuid>
+      <webElementGuid>77d2d70e-d5db-4b3b-b2c5-5ccd0053aea2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div</value>
-      <webElementGuid>7ee9cad9-307c-4200-86ce-6447b9309d2d</webElementGuid>
+      <webElementGuid>3e5ef0ea-84ca-4551-b498-65768c256021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'form-avatar-input']</value>
-      <webElementGuid>0e0780af-2845-4e76-b1af-13b0e92e7d59</webElementGuid>
+      <webElementGuid>63cc6b26-5709-4d1a-9601-97bd8d10a986</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/div_Email has already been taken'))
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/div_Email has already been taken'))
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 
-KeywordUtil.logInfo('Error Text: ' + errorText)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account'), [('username') : 'try', ('email') : 'try@mail.com'
+        , ('password') : try], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(errorText, Expected, false)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Verify Email Has Registered'), [('expected') : 'Email has already been taken.'], 
+    FailureHandling.STOP_ON_FAILURE)
 
