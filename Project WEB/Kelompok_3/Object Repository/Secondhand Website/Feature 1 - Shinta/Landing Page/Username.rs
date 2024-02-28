@@ -6,19 +6,19 @@
    <elementGuidId>c4ee2fa9-18db-402c-9a70-a176685be272</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.fs-5.fw-bold</value>
+         <key>BASIC</key>
+         <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;nav-user&quot;]/div[@class=&quot;d-flex align-items-center justify-content center flex-column py-2&quot;]/div[@class=&quot;card-body text-center&quot;]/div[@class=&quot;fs-5 fw-bold&quot;][count(. | //*[@class = 'fs-5 fw-bold']) = count(//*[@class = 'fs-5 fw-bold'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'budicermat' or . = 'budicermat')]</value>
+         <key>CSS</key>
+         <value>div.fs-5.fw-bold</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[(text() = '${username}' or . = '${username}')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,31 +26,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>88c69ead-705a-44cb-aa06-e810cc7f9fcd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>fs-5 fw-bold</value>
-      <webElementGuid>5ca66b93-6680-4681-b5d0-17b5a9abe624</webElementGuid>
+      <webElementGuid>f9e315cf-33ac-481c-8172-69bfab3326da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>budicermat</value>
-      <webElementGuid>1a99c7b5-ee6b-4a74-ab83-57d58c1604a5</webElementGuid>
+      <value>fs-5 fw-bold</value>
+      <webElementGuid>67518179-76d6-4251-b549-85c9abe06f5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>budicermat</value>
+      <webElementGuid>e41dfcbd-ba47-40d2-a455-a6f728edaed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;nav-user&quot;]/div[@class=&quot;d-flex align-items-center justify-content center flex-column py-2&quot;]/div[@class=&quot;card-body text-center&quot;]/div[@class=&quot;fs-5 fw-bold&quot;]</value>
-      <webElementGuid>c1c44e1e-359f-4271-822c-e328b4f4bc4c</webElementGuid>
+      <webElementGuid>0e3f56eb-fcfb-4a5b-9a46-932ce6ebf5ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/ul/li/a/div/div/div</value>
-      <webElementGuid>5dd585ed-42a5-4632-9278-246b8b2e1ff7</webElementGuid>
+      <webElementGuid>2c68ed42-49c1-4626-95c2-19fd8cdb2b74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Saya'])[2]/following::div[3]</value>
-      <webElementGuid>466f904d-c7d3-4e57-8418-8835c66f8989</webElementGuid>
+      <webElementGuid>9219d904-957f-4fa3-86fa-678644aa29f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[3]</value>
-      <webElementGuid>fad54891-0d79-4d04-8ca0-f7bf6d08cebb</webElementGuid>
+      <webElementGuid>2c5288f2-6c3a-40f3-9e10-e54717ef1904</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/preceding::div[2]</value>
-      <webElementGuid>88600e17-55d3-4278-8dfc-214e2f43ec77</webElementGuid>
+      <webElementGuid>0bcda7ed-e4da-423f-bef3-8f4de958ee22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='budicermat']/parent::*</value>
-      <webElementGuid>0d115128-b9bc-49e5-8d34-80a112bcc27b</webElementGuid>
+      <webElementGuid>c6c03fdd-b2df-4822-bdde-aafa3b1d8888</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div/div/div</value>
-      <webElementGuid>a88ae980-ac53-4c76-9d3e-5b5d70ef363c</webElementGuid>
+      <webElementGuid>6d9721ae-d8f7-4418-af66-1916ad4da255</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'budicermat' or . = 'budicermat')]</value>
-      <webElementGuid>731912a3-f6f4-439a-ac1f-88db1276e398</webElementGuid>
+      <webElementGuid>8ae7ee8b-94c3-4670-8416-a4f5acd8a8b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

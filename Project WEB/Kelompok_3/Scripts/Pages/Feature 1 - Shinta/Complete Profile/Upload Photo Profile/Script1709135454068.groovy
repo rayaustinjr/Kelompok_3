@@ -1,5 +1,4 @@
-
-\import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,14 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+imgDir = (RunConfiguration.getProjectDir() + '/ImageUpload/profile.png')
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account'), [('username') : 'try', ('email') : 'try@mail.com'
-        , ('password') : try], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Verify Email Has Registered'), [('expected') : 'Email has already been taken.'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.uploadFile(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/tag_photo_profile'), imgDir)
 
