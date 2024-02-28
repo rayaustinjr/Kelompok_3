@@ -18,14 +18,14 @@
       <variableId>62ddada2-229a-47d7-964b-9427b4db4e0c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Please fill out this field.'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>3426cbc1-b09f-4a0d-b398-20cab84f2b20</id>
       <masked>false</masked>
       <name>message</name>
    </variable>
    <variable>
-      <defaultValue>[('') : 'Please fill out this field.']</defaultValue>
+      <defaultValue>'Please fill out this field.'</defaultValue>
       <description></description>
       <id>62ddada2-229a-47d7-964b-9427b4db4e0c</id>
       <masked>false</masked>
