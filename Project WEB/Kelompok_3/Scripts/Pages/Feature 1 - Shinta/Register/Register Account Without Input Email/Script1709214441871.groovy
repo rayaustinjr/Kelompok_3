@@ -16,7 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/div_Email has already been taken'), 
-    'Email has already been taken')
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Name'), username)
+
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Password_userpassword'), password)
+
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/btn_daftar'))
 

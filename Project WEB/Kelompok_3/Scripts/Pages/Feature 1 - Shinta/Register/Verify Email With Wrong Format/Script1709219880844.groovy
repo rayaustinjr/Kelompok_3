@@ -14,9 +14,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import groovy.ui.OutputTransforms as OutputTransforms
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/div_Email has already been taken'), 
-    'Email has already been taken')
+randomEmail = WebUI.getAttribute(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Email_useremail'), 
+    'value')
+
+failedMessage = (('Please include an \'@\' in the email address. \'' + randomEmail) + '\' is missing an \'@\'.')
+
+WebUI.verifyElementAttributeValue(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Email_useremail'), 
+    'validationMessage', failedMessage, 0)
 

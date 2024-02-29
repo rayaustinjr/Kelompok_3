@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/div_Email has already been taken'), 
-    'Email has already been taken')
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/btn_daftar'))
 

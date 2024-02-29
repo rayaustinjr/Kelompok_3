@@ -16,7 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/div_Email has already been taken'), 
-    'Email has already been taken')
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String domain = 'mail.com' // Ganti dengan domain yang diinginkan
+
+String randomEmail = (RandomStringUtils.randomNumeric(4) + '@') + domain
+
+String randomPassword = RandomStringUtils.randomNumeric(2)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account Without Input Name'), [('email') : randomEmail
+        , ('password') : randomPassword], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Verify Name Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
+    FailureHandling.STOP_ON_FAILURE)
 

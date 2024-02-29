@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>REG002 - Register with registered email account</name>
+   <name>REG003 - Register with empty name</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cf2d067b-d136-489a-82a4-ee2f8d6fb604</testCaseGuid>
+   <testCaseGuid>f12b9d50-388f-4518-ba4a-6a7a269b1010</testCaseGuid>
 </TestCaseEntity>

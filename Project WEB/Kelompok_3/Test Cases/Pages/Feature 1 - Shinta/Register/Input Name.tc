@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43365839-c63f-4fe6-a8af-4957077ba817</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36ea2434-a3f3-4859-8cd2-5923e6cb1a8d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'try'</defaultValue>
+      <description></description>
+      <id>36ea2434-a3f3-4859-8cd2-5923e6cb1a8d</id>
+      <masked>false</masked>
+      <name>RegisteredUsername</name>
+   </variable>
+</TestCaseEntity>
