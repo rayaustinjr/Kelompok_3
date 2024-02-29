@@ -17,5 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Icon_list_product'))
+WebUI.setText(findTestObject('Secondhand Website/Feature 2/Add Product/Field Product Name'), productName)
+
+WebUI.setText(findTestObject('Secondhand Website/Feature 2/Add Product/Field Product Price'), productPrice)
+
+WebUI.selectOptionByLabel(findTestObject('Secondhand Website/Feature 2/Add Product/Select Option Category'), productCategory, 
+    false)
+
+WebUI.setText(findTestObject('Secondhand Website/Feature 2/Add Product/Text Area'), description)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDJ002 - User want to preview product with empty fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1e3860f-b5d0-498b-be9a-ebc86f951ef2</testCaseGuid>
+</TestCaseEntity>
