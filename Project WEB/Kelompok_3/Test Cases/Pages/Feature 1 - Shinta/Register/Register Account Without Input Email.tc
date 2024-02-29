@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register Account Without Input Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79e22f1b-f48c-49a3-812a-28a37fa097be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>909dc7ca-689b-4314-9067-af160b161a9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55508c51-2673-49c9-81a5-f378be07dc2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68978ec8-eda6-49f0-92cc-d4601f240fac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>909dc7ca-689b-4314-9067-af160b161a9c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>55508c51-2673-49c9-81a5-f378be07dc2f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>68978ec8-eda6-49f0-92cc-d4601f240fac</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

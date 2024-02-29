@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59d2b355-fde8-4540-b74a-e7ea35b12885</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29e5602e-c90e-4c4b-bc75-931ff3a21c83</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fdc94738-82a6-41fd-8fb7-3b7642f01970</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ab55eb8-1e4c-4949-ae34-23409a9b60f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>29e5602e-c90e-4c4b-bc75-931ff3a21c83</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>fdc94738-82a6-41fd-8fb7-3b7642f01970</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>6ab55eb8-1e4c-4949-ae34-23409a9b60f6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

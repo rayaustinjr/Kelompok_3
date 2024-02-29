@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('Secondhand Website/Homepage/Product Name', [('productName') : productName]), 0)
+WebUI.scrollToElement(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Product Name'), 0)
 
-WebUI.click(findTestObject('Secondhand Website/Homepage/Product Name', [('productName') : productName]))
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Product Name'))
 
