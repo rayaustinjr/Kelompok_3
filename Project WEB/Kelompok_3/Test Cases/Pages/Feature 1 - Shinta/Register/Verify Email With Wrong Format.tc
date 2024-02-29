@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Email With Wrong Format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5a15805-df2a-4bbc-bdc6-aef75ac11066</testCaseGuid>
+</TestCaseEntity>

@@ -24,12 +24,11 @@ WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Daf
 
 String username = 'saya'
 
-String domain = 'mail.com' // Ganti dengan domain yang diinginkan
-
-String randomEmail = ((username + RandomStringUtils.randomNumeric(4)) + '@') + domain
-
 String randomPassword = username + RandomStringUtils.randomNumeric(2)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account'), [('username') : username, ('email') : randomEmail
-        , ('password') : randomPassword], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account Without Input Email'), [('username') : username
+        , ('email') : [:], ('password') : randomPassword], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Verify Email Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
+    FailureHandling.STOP_ON_FAILURE)
 

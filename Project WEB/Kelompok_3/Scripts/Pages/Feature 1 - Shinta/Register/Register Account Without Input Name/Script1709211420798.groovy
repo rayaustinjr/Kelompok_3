@@ -18,18 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Email_useremail'), email)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Password_userpassword'), password)
 
-String username = 'saya'
-
-String domain = 'mail.com' // Ganti dengan domain yang diinginkan
-
-String randomEmail = ((username + RandomStringUtils.randomNumeric(4)) + '@') + domain
-
-String randomPassword = username + RandomStringUtils.randomNumeric(2)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account'), [('username') : username, ('email') : randomEmail
-        , ('password') : randomPassword], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/btn_daftar'))
 

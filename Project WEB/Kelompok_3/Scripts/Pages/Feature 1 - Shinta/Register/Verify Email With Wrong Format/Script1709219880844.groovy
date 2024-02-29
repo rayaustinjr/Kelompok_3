@@ -14,22 +14,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import groovy.ui.OutputTransforms as OutputTransforms
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+randomEmail = WebUI.getAttribute(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Email_useremail'), 
+    'value')
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
+failedMessage = (('Please include an \'@\' in the email address. \'' + randomEmail) + '\' is missing an \'@\'.')
 
-String username = 'saya'
-
-String domain = 'mail.com' // Ganti dengan domain yang diinginkan
-
-String randomEmail = ((username + RandomStringUtils.randomNumeric(4)) + '@') + domain
-
-String randomPassword = username + RandomStringUtils.randomNumeric(2)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account'), [('username') : username, ('email') : randomEmail
-        , ('password') : randomPassword], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementAttributeValue(findTestObject('Secondhand Website/Feature 1 - Shinta/Register Page/input_Email_useremail'), 
+    'validationMessage', failedMessage, 0)
 
