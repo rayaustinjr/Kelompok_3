@@ -25,9 +25,10 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Product
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Edit'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Edit Price'), [('productPrice') : 'asdsasd'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Edit Product'), [('productName') : 'Kondangan', ('productPrice') : '100000'
+        , ('productCategory') : 'Hobi', ('description') : 'Foto Kondangan'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
