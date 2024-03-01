@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROD001 - Add Product And Verify on Notification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddddb5c5-4185-4066-b250-db9bdc217485</testCaseGuid>
+</TestCaseEntity>
