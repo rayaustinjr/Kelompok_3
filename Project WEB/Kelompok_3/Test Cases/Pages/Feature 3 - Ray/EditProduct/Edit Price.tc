@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click_Product</name>
+   <name>Edit Price</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e0a6135b-dcaa-41dd-b532-c70b113ea73d</testCaseGuid>
+   <testCaseGuid>17a774d5-944c-4d1b-9c35-4a1fbed7a6f8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>79fc5f85-2107-468c-bdb7-8a4a9e2da6a2</variableId>
+      <variableId>6f9af343-ee96-4588-9dab-c1b24c538be8</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>79fc5f85-2107-468c-bdb7-8a4a9e2da6a2</id>
+      <id>6f9af343-ee96-4588-9dab-c1b24c538be8</id>
       <masked>false</masked>
-      <name>productName</name>
+      <name>productPrice</name>
    </variable>
 </TestCaseEntity>

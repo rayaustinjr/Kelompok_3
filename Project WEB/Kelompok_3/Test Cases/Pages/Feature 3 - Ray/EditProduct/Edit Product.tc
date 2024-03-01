@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Clear Fields</name>
+   <name>Edit Product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9f36333d-2328-4ce4-813f-fc37c89fbca7</testCaseGuid>

@@ -20,10 +20,10 @@ import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Registered Email'), [('email') : 'blewah@gmail.com'], 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Registered Email'), [('email') : 'rayseller@gmail.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Correct Password'), [('password') : 'sugutamu'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Correct Password'), [('password') : '123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click_btn_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -32,6 +32,8 @@ WebUI.callTestCase(findTestCase('Pages/Feature 2/Homepage/Click_Btn_Jual'), [:],
 String product = 'abcde'
 
 String randomProductName = RandomStringUtils.randomAlphabetic(5)
+
+GlobalVariable.GproductName = randomProductName
 
 WebUI.callTestCase(findTestCase('Pages/Feature 2/Add Product/Add Product From Homepage'), [('productName') : randomProductName
         , ('productPrice') : '1234567', ('productCategory') : 'Hobi', ('description') : 'barang bagus'], FailureHandling.STOP_ON_FAILURE)
