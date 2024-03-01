@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-getStatus = WebUI.getText(findTestObject('Secondhand Website/Feature 2/Notification Page/Label Status'), FailureHandling.STOP_ON_FAILURE)
+getStatus = WebUI.getText(findTestObject('Secondhand Website/Feature 2/Notification Page/Label Status', [('productName') : productName]), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(getStatus, status, false)
 
