@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click_Btn_Terbitkan_Preview</name>
+   <name>EPN001 - User want to preview product</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>068ea2d8-2578-4012-9626-5d811a9159f7</testCaseGuid>
+   <testCaseGuid>b1ba4b34-79b9-4133-a504-74f4ea9681e2</testCaseGuid>
 </TestCaseEntity>
