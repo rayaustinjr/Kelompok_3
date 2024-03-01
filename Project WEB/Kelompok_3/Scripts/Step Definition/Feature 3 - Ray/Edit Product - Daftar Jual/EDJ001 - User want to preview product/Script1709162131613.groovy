@@ -30,3 +30,5 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Edit Product'
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+

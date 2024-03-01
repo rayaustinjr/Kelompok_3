@@ -20,9 +20,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Step Definition/Feature 2/Add Product/PROD002 - Add Product And Verify on Product List'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/DeleteProduct - Daftar Jual/Click_Btn_Hamburger'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Product'), [('productName') : GlobalVariable.GproductName], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Edit'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,4 +29,6 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Edit Product'
         , ('productCategory') : 'Pilih Kategori', ('description') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 

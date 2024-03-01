@@ -16,18 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Step Definition/Feature 2/Add Product/PROD002 - Add Product And Verify on Product List'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
+imgDir = (RunConfiguration.getProjectDir() + '/ImageUpload/product_big.jpg')
 
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Product'), [('productName') : GlobalVariable.GproductName], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Edit'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Edit Price'), [('productPrice') : 'asdsasd'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/EditProduct/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
+WebUI.uploadFile(findTestObject('Secondhand Website/Feature 2/Add Product/Image Upload'), imgDir)
 

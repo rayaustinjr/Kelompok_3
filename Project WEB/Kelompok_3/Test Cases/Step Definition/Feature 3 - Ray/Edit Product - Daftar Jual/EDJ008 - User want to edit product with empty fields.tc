@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDJ008 - User want to edit product with empty fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d741ae8b-73ef-4152-91ad-9bce66483e5a</testCaseGuid>
+</TestCaseEntity>
