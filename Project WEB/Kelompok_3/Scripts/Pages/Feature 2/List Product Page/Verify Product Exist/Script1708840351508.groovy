@@ -17,5 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 2/List Product Page/Product Name'), productName)
+WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 2/List Product Page/Product Name', [('productName') : productName]), 
+    productName)
 
