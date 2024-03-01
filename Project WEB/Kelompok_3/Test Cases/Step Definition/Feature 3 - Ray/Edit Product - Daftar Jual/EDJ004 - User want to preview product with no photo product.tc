@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDJ004 - User want to preview product with no photo product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d42fee77-270b-43e2-aacc-887d6850be19</testCaseGuid>
+</TestCaseEntity>

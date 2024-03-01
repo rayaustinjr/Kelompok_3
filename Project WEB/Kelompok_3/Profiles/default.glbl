@@ -14,4 +14,9 @@
       <initValue>'https://secondhand.binaracademy.org/users/sign_in'</initValue>
       <name>G_Url_Login</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>GproductName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
