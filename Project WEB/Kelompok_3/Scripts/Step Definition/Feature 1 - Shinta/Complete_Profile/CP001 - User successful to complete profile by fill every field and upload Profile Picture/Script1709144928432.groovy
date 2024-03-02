@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.callTestCase(findTestCase('Step Definition/Feature 1 - Shinta/Register/REG001 - Register with fresh account'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Click Icon Account and Username'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String[] City = ["Solo", "Jogja", "Jakarta", "Bandung", "Semarang"]
+String[] City = ['Solo', 'Jogja', 'Jakarta', 'Bandung', 'Semarang']
 
 String address = (RandomStringUtils.randomAlphabetic(12) + ' No. ') + RandomStringUtils.randomNumeric(3)
 
