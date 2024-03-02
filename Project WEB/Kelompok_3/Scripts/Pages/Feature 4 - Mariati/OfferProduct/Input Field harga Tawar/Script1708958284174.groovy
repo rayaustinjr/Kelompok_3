@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject(null), '')
+WebUI.setText(findTestObject('Secondhand Website/Feature 4 - Mariati/OfferProduct/input_Harga Tawar_offerprice'), offerPrice)
 
