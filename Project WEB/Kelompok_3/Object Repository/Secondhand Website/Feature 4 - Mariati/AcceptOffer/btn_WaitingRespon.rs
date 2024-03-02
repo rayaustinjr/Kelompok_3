@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::div[3]</value>
+         <value>//button[text()='Menunggu respon penjual']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c5f0d41a-975c-4fdf-ae1f-2b1db380ee66</webElementGuid>
+      <webElementGuid>31ca64d6-265b-4d44-a154-4396936b7163</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-body</value>
-      <webElementGuid>59de2bea-b2ce-4aac-851a-b1fa96b8e632</webElementGuid>
+      <webElementGuid>91cab5b6-db0c-45bc-b03a-12b6a0cdbf3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
           Rp 17
             Menunggu respon penjual
         </value>
-      <webElementGuid>70cbd6b4-9aa3-4602-ba20-a1c6da607fdc</webElementGuid>
+      <webElementGuid>a9bed0e4-3ef5-457b-9dfd-f22805c37dc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]</value>
-      <webElementGuid>f66a3cfe-d4b1-49b4-aa19-abe9b01cef54</webElementGuid>
+      <webElementGuid>d888e1db-a5ec-4846-ac41-0846c6187690</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::div[3]</value>
-      <webElementGuid>588a30ac-efbb-424e-ad99-36225510b46d</webElementGuid>
+      <webElementGuid>8e3974d6-63a3-402b-9439-904f314f0342</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga tawarmu berhasil dikirim ke penjual'])[1]/following::div[10]</value>
-      <webElementGuid>6d4f4a85-7848-41f0-ae50-fc1805204f3a</webElementGuid>
+      <webElementGuid>2a1c7d3a-b782-4b70-981c-124ec1f183a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div</value>
-      <webElementGuid>37691f3b-7fe8-4d1a-b6ca-7cc21c985c88</webElementGuid>
+      <webElementGuid>e9e37102-255e-48c7-b460-bab4a852c0c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
           Rp 17
             Menunggu respon penjual
         ')]</value>
-      <webElementGuid>433c4ac4-6306-47de-8bb9-6c14ac585d47</webElementGuid>
+      <webElementGuid>69baf7c6-9a3c-4653-9e0d-97cee75fa872</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

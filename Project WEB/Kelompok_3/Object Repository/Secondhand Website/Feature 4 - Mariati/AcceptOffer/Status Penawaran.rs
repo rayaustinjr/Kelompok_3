@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//section//h6[normalize-space(text())='${status}'])[1]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
-      <webElementGuid>8664424a-0426-42df-beac-50180e488048</webElementGuid>
+      <webElementGuid>7ea713be-6633-4031-95ad-4daa2700bf5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>offer-status text-black-50</value>
-      <webElementGuid>b583c91a-89b8-48bf-92df-d0af5f887f7b</webElementGuid>
+      <webElementGuid>aba30754-5a7c-477c-8ee0-a4e935be804b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +39,7 @@
       <value>
               Penawaran produk diterima
             </value>
-      <webElementGuid>f644768d-c679-4133-8622-dd2f44e9b9ba</webElementGuid>
+      <webElementGuid>59412ed0-559a-492d-91be-2b8fac7a6e03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container-sm&quot;]/ul[@class=&quot;offers mt-5&quot;]/li[@class=&quot;offer gap-4 mt-5&quot;]/div[@class=&quot;offer-content&quot;]/div[@class=&quot;offer-header&quot;]/h6[@class=&quot;offer-status text-black-50&quot;]</value>
-      <webElementGuid>df6cffc5-2488-4222-89fa-46d074de453e</webElementGuid>
+      <webElementGuid>eb942414-0be3-4388-a35c-d5692e4179f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan transaksi'])[1]/following::h6[1]</value>
-      <webElementGuid>0fe67d7c-12c3-40dc-b24c-0c727fd0a226</webElementGuid>
+      <webElementGuid>36e2f18f-f501-44e1-8d59-66586759bb14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil terjual'])[1]/following::h6[1]</value>
-      <webElementGuid>c0c1b0c9-ddf2-491d-bd9b-b37333fe5c66</webElementGuid>
+      <webElementGuid>7c619d78-46d2-46c0-a430-c24895e10d30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sayang'])[2]/preceding::h6[1]</value>
-      <webElementGuid>e1c95f1e-4bd5-476a-98df-31a9deab0d18</webElementGuid>
+      <webElementGuid>eab3f0b0-ed98-4b36-a6d0-a36172dad36e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 2.000'])[1]/preceding::h6[1]</value>
-      <webElementGuid>c85805a4-85ff-4b3b-92cf-d80eb0662366</webElementGuid>
+      <webElementGuid>365ce02d-2ada-403c-baed-0a9c33f2a3e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/div/h6</value>
-      <webElementGuid>02578bea-309b-4b5a-a5f9-613a7176959b</webElementGuid>
+      <webElementGuid>f4d2f4c1-9ded-42bf-9354-65ac4308f2af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +99,6 @@
             ' or . = '
               Penawaran produk diterima
             ')]</value>
-      <webElementGuid>0bdc0064-8849-43c7-bdfe-a48b599206b7</webElementGuid>
+      <webElementGuid>d6f5b248-c7b1-4466-a091-23f9b689479a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

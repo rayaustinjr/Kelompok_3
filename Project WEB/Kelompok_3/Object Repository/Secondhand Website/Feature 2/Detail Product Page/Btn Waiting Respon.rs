@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[text()='Menunggu respon penjual']</value>
+         <value>//button class=&quot;btn btn-lg btn-primary fs-6 rounded-4 w-100 mb-3 py-3 fw-bold disabled&quot;>Menunggu respon penjual&lt;/button></value>
       </entry>
       <entry>
          <key>BASIC</key>
