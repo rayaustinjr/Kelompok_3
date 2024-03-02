@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DEL001 - Delete Product From Notifikasi</name>
+   <name>DELN001 - User want to delete product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>54aa0acf-d033-4933-ac0c-e3665cd43c94</testCaseGuid>
