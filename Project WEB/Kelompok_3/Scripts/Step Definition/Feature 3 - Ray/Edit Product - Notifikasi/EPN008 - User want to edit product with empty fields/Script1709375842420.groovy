@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jua
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Edit Product'), [('productName') : '', ('productPrice') : ''
         , ('productCategory') : 'Pilih Kategori', ('description') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
