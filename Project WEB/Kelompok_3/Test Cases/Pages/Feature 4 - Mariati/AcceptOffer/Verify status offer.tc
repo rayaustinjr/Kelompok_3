@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Input Field harga Tawar</name>
+   <name>Verify status offer</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e72c419a-d14c-4a35-8079-e4795b4a576d</testCaseGuid>
+   <testCaseGuid>d60f9513-971f-4eaf-9277-ddd444890299</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c7104596-1657-4d11-9323-739f3f98c06f</variableId>
+      <variableId>51d5e586-7bbf-4e61-bdeb-77c9b1015881</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'100'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>c7104596-1657-4d11-9323-739f3f98c06f</id>
+      <id>51d5e586-7bbf-4e61-bdeb-77c9b1015881</id>
       <masked>false</masked>
-      <name>offerPrice</name>
+      <name>status</name>
    </variable>
 </TestCaseEntity>
