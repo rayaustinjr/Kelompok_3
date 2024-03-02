@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EPN012 - User want to edit photo product with big file size</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76dfa5b4-b332-455c-a5ea-cf280b87b2c0</testCaseGuid>
+</TestCaseEntity>
