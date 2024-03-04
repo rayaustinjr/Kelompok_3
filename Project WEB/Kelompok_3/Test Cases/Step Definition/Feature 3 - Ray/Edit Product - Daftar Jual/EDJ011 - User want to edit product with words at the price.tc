@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDJ011 - User want to edit product with words at the price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcc241d2-3e3c-44a8-8c8e-f85e12256a08</testCaseGuid>
+</TestCaseEntity>

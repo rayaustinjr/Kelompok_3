@@ -9,12 +9,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9d4596ff-9f86-4aa2-8d71-15057e2c0519</variableId>
+      <variableId>99b8fe6d-6e0c-445c-96a7-66fa6d42e88b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9d4596ff-9f86-4aa2-8d71-15057e2c0519</id>
+      <id>99b8fe6d-6e0c-445c-96a7-66fa6d42e88b</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>

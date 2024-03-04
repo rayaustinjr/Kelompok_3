@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click_Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0a6135b-dcaa-41dd-b532-c70b113ea73d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79fc5f85-2107-468c-bdb7-8a4a9e2da6a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79fc5f85-2107-468c-bdb7-8a4a9e2da6a2</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>

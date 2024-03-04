@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LO002 - User logout after register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74377860-de13-4006-8adf-2b75786ea4b0</testCaseGuid>
+</TestCaseEntity>

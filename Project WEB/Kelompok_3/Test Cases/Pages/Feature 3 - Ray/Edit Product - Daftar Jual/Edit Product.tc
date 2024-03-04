@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f36333d-2328-4ce4-813f-fc37c89fbca7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0dae5763-3fb6-478c-9d67-cb179e312f64</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2258f414-a5da-4c1b-9623-209d6080624f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2143dd3a-aa85-4f0a-8039-413c8e34b60c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98e97fb1-9de3-4a6a-82fe-59fc54ed26c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0dae5763-3fb6-478c-9d67-cb179e312f64</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2258f414-a5da-4c1b-9623-209d6080624f</id>
+      <masked>false</masked>
+      <name>productPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pilih Kategori'</defaultValue>
+      <description></description>
+      <id>2143dd3a-aa85-4f0a-8039-413c8e34b60c</id>
+      <masked>false</masked>
+      <name>productCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>98e97fb1-9de3-4a6a-82fe-59fc54ed26c3</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

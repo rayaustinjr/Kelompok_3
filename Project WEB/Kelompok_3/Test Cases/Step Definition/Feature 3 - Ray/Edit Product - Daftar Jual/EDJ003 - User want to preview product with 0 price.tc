@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDJ003 - User want to preview product with 0 price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66b478d8-fe99-4af6-9277-12e4b0c43da1</testCaseGuid>
+</TestCaseEntity>
