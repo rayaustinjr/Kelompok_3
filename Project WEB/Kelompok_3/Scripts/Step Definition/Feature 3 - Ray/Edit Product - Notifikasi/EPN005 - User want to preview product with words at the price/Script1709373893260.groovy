@@ -29,5 +29,8 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jua
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Error Message/Verify Price'), [('errorPrice') : 'Price can\'t be blank'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2)
 

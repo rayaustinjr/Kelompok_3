@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.scrollToElement(findTestObject('Secondhand Website/Feature 3 - Ray/EditProduct - Daftar Jual/Btn_Delete_Photo'), 0)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Secondhand Website/Feature 3 - Ray/EditProduct - Daftar Jual/Btn_Delete_Photo'))
 

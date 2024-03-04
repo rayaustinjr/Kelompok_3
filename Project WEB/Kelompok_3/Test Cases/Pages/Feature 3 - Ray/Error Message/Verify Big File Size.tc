@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Big File Size</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>444757d4-103c-40b7-8b64-3afc60cd8935</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f13c578f-2584-442f-9b2f-1ac3ae8224e7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f13c578f-2584-442f-9b2f-1ac3ae8224e7</id>
+      <masked>false</masked>
+      <name>errorBigSize</name>
+   </variable>
+</TestCaseEntity>

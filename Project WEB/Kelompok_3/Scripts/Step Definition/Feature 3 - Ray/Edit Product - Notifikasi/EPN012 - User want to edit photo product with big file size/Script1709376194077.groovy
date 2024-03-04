@@ -30,5 +30,8 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jua
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Error Message/Verify Big File Size'), [('errorBigSize') : '413 Request Entity Too Large'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2)
 
