@@ -1,4 +1,3 @@
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -31,6 +30,8 @@ WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Registered
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Correct Password'), [('password') : 'try'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Click Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Verify Email Has Registered'), [('expected') : 'Email has already been taken.'], 
     FailureHandling.STOP_ON_FAILURE)

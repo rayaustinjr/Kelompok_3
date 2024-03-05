@@ -28,6 +28,8 @@ WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Wrong Pass
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click_btn_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Read Error Message'), [('Expected') : 'Invalid Email or password.'], 
     FailureHandling.STOP_ON_FAILURE)
 

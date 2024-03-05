@@ -31,6 +31,8 @@ String randomEmail = ((username + RandomStringUtils.randomNumeric(4)) + '@') + d
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account Without Input Password'), [('username') : username
         , ('email') : randomEmail, ('password') : [:]], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Verify Password Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
     FailureHandling.STOP_ON_FAILURE)
 

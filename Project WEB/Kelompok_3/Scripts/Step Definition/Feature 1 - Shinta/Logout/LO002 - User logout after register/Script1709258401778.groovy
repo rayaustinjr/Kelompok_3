@@ -22,3 +22,5 @@ WebUI.callTestCase(findTestCase('Step Definition/Feature 1 - Shinta/Register/REG
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+

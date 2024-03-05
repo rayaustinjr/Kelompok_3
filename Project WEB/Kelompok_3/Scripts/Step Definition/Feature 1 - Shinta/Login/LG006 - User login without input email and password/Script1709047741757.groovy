@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Verify Content')
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click_btn_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Verify Email Required'), [('message') : '', ('expected') : 'Please fill out this field.'], 
     FailureHandling.STOP_ON_FAILURE)
 
