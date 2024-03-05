@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP005 - User want to complete profile by not select user city</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd3e07c4-c1e8-4d09-b005-62db3b49a1ec</testCaseGuid>
+</TestCaseEntity>
