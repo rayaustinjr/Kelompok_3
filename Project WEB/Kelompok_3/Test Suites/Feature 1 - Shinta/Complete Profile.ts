@@ -53,4 +53,11 @@
       <testCaseId>Test Cases/Step Definition/Feature 1 - Shinta/Complete_Profile/CP006 - User want to complete profile without upload photo profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>67679005-9a92-475c-9b52-2b5072a66194</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Step Definition/Feature 1 - Shinta/Complete_Profile/CP007 - User want to save complete profile without make any change</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
