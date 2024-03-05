@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>CP002 - User want to complete profile with empty address</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e022a642-0f4c-49f5-83a4-38784d417652</testCaseGuid>
+   <testCaseGuid>c8b1b399-f445-4d62-8311-1d3859e08fcf</testCaseGuid>
 </TestCaseEntity>

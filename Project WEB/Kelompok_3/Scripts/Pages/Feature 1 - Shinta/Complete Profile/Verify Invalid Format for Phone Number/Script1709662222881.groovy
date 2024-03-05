@@ -17,3 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+message = WebUI.getAttribute(findTestObject('Secondhand Website/Feature 1 - Shinta/Update Profile Page/input_no_hp'), 'validationMessage')
+
+WebUI.verifyEqual(message, expected)
+

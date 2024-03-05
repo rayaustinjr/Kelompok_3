@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP006 - User want to complete profile without upload photo profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc78cf86-2e3e-443b-88a1-41725866c798</testCaseGuid>
+</TestCaseEntity>

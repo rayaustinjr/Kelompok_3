@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP003 - User want to complete profile with empty phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3f9e92c-8c70-4591-b736-72973faf3eb6</testCaseGuid>
+</TestCaseEntity>
