@@ -11,11 +11,24 @@
       <value></value>
       <variableId>2b3ad1b8-a9a2-407a-aa2b-4ce955371b99</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88c0b803-2092-4444-8873-24485c799755</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>2b3ad1b8-a9a2-407a-aa2b-4ce955371b99</id>
       <masked>false</masked>
       <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88c0b803-2092-4444-8873-24485c799755</id>
+      <masked>false</masked>
+      <name>expected</name>
    </variable>
 </TestCaseEntity>
