@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b64ad455-a80d-45a3-9702-db12a491410c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0794b811-99c4-4b27-a058-edd5daae0aae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0794b811-99c4-4b27-a058-edd5daae0aae</id>
+      <masked>false</masked>
+      <name>errorPrice</name>
+   </variable>
+</TestCaseEntity>

@@ -30,5 +30,7 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jua
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Verify Preview Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2)
 

@@ -26,7 +26,11 @@ WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jua
 
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Verify Preview Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/DeleteProduct - Notifikasi/Click_Btn_Delete'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/DeleteProduct - Daftar Jual/Verify Produk Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

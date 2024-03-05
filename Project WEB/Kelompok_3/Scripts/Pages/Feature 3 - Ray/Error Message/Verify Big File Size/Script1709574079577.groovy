@@ -17,21 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Step Definition/Feature 2/Add Product/PROD002 - Add Product And Verify on Product List'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Product'), [('productName') : GlobalVariable.GproductName], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Edit'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Edit Price'), [('productPrice') : 'asdsasd'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Edit Product - Daftar Jual/Click_Btn_Preview'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 3 - Ray/Error Message/Verify Price'), [('errorPrice') : 'Price can\'t be blank'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 3 - Ray/Error Message/error_413 Request Entity Too Large'), 
+    errorBigSize)
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35ff08df-a69c-44ee-84c0-0e1cf4db51bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c1901b6-b9bc-42bd-a17b-329b9f60083f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c1901b6-b9bc-42bd-a17b-329b9f60083f</id>
+      <masked>false</masked>
+      <name>errorCategory</name>
+   </variable>
+</TestCaseEntity>
