@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-<<<<<<< HEAD:Project WEB/Kelompok_3/Test Cases/Step Definition/Feature 1 - Shinta/Complete_Profile/CP002 - User want to complete profile with empty address.tc
    <name>CP002 - User want to complete profile with empty address</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c8b1b399-f445-4d62-8311-1d3859e08fcf</testCaseGuid>
-=======
-   <name>Click Menu Produk</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3f2ccbf2-24b8-4488-9602-754d1df8b200</testCaseGuid>
->>>>>>> master:Project WEB/Kelompok_3/Test Cases/Pages/Feature 5 - Aji/Product Terjual/Click Menu Produk.tc
+   <testCaseGuid>c7909748-1b87-4afb-860b-fba11abb3ef2</testCaseGuid>
 </TestCaseEntity>
