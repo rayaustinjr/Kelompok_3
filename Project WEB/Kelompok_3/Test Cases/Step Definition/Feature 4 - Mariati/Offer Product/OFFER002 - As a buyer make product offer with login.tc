@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click button Saya Tertarik dan Ingin Nego</name>
+   <name>OFFER002 - As a buyer make product offer with login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>db183aaf-fd91-4763-865e-c733c41659ab</testCaseGuid>
+   <testCaseGuid>e7b22cb8-aeec-44fa-93b5-ae30855ca648</testCaseGuid>
 </TestCaseEntity>

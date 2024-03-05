@@ -4,5 +4,11 @@
    <name>Click button Kirim</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>826850c7-594d-43d7-a74f-5eb62d5654c2</testCaseGuid>
+   <testCaseGuid>41f219dd-8eaa-4a23-8afe-01db2046cb61</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08bd026d-ee94-438d-aecb-04e49fd42b76</variableId>
+   </variableLinks>
 </TestCaseEntity>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click button status offer</name>
+   <name>Select Product Name</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0b8ff2e5-a507-4621-b751-ca7e045f95c4</testCaseGuid>
+   <testCaseGuid>ad2cb6f1-8758-45b5-9297-0980fadee03d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>31fe9269-577f-49b8-959a-7e29dd742364</variableId>
+      <variableId>06c210bf-022c-4d4a-b2f7-60d24384e304</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>31fe9269-577f-49b8-959a-7e29dd742364</id>
+      <id>06c210bf-022c-4d4a-b2f7-60d24384e304</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>

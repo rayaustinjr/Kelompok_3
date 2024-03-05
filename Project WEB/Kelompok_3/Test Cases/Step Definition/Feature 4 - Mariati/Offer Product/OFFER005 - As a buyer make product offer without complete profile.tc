@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFFER005 - As a buyer make product offer without complete profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e687e54a-7ed0-44ab-95ed-cce7b259cb3d</testCaseGuid>
+</TestCaseEntity>
