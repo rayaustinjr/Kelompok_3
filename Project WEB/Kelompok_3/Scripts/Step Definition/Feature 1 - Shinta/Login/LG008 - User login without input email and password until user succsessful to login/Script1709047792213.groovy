@@ -38,3 +38,5 @@ WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Input Correct Pa
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Login/Click_btn_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+

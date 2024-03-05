@@ -37,6 +37,8 @@ WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Input
 
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Click Save Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Complete Profile/Verify Select City'), [('message') : '', ('expected') : 'Please select an item in the list.'], 
     FailureHandling.STOP_ON_FAILURE)
 

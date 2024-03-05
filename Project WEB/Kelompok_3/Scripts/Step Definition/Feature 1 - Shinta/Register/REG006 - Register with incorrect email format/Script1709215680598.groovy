@@ -33,5 +33,7 @@ String randomPassword = username + RandomStringUtils.randomNumeric(2)
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Register Account With Incorrect Email Format'), [('username') : username
         , ('email') : randomEmail, ('password') : randomPassword], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Feature 1 - Shinta/Register/Verify Email With Wrong Format'), [:], FailureHandling.STOP_ON_FAILURE)
 
