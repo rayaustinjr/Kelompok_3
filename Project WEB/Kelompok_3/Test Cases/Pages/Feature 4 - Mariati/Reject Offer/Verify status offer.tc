@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify status offer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d60f9513-971f-4eaf-9277-ddd444890299</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51d5e586-7bbf-4e61-bdeb-77c9b1015881</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>909188a5-a76b-4d3c-aa9d-192f8b3a51a1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3c4c729-b960-485e-aa68-abdbff89e050</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51d5e586-7bbf-4e61-bdeb-77c9b1015881</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>909188a5-a76b-4d3c-aa9d-192f8b3a51a1</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3c4c729-b960-485e-aa68-abdbff89e050</id>
+      <masked>false</masked>
+      <name>getStatus</name>
+   </variable>
+</TestCaseEntity>

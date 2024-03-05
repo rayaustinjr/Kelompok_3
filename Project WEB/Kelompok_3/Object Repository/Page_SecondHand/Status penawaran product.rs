@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Status Penawaran</name>
+   <name>Status penawaran product</name>
    <tag></tag>
-   <elementGuidId>d21d02e9-6092-4b95-9ef0-dcc40928c51b</elementGuidId>
+   <elementGuidId>98ddfd1c-705a-4531-af61-4e9cff1b3884</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//section//h6[normalize-space(text())='${status}'])[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Produkmu yang Ditawar'])[1]/following::h6[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>h6.offer-status.text-black-50</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
-      <webElementGuid>9fc9d283-c070-4bb9-bd8a-30926aed7aa5</webElementGuid>
+      <webElementGuid>03c567a8-e037-465a-b982-f8d635485b4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>offer-status text-black-50</value>
-      <webElementGuid>3a3c3aa0-2546-4ac2-a2ac-64723ddc1550</webElementGuid>
+      <webElementGuid>9f7d85e3-84d8-493b-aad1-013d7ae5e70f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,9 +38,9 @@
       <name>text</name>
       <type>Main</type>
       <value>
-              Penawaran produk diterima
+              Penawaran produk ditolak
             </value>
-      <webElementGuid>5d635451-9413-407d-8ef1-5c2170d8e52b</webElementGuid>
+      <webElementGuid>54aa396b-9aeb-4eeb-a429-292f18766d2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,58 +48,66 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container-sm&quot;]/ul[@class=&quot;offers mt-5&quot;]/li[@class=&quot;offer gap-4 mt-5&quot;]/div[@class=&quot;offer-content&quot;]/div[@class=&quot;offer-header&quot;]/h6[@class=&quot;offer-status text-black-50&quot;]</value>
-      <webElementGuid>ce492a42-9866-4895-9a56-0a0332f14acc</webElementGuid>
+      <webElementGuid>17fceb36-4358-469c-ad67-a3c0c6801eeb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan transaksi'])[1]/following::h6[1]</value>
-      <webElementGuid>29713d53-3ae8-485d-b7e0-5137bdddba13</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Produkmu yang Ditawar'])[1]/following::h6[1]</value>
+      <webElementGuid>974a13fb-e738-4acd-b299-44519e9e64c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil terjual'])[1]/following::h6[1]</value>
-      <webElementGuid>17e8ef27-3124-4760-9ef7-1821621c87a6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/following::h6[1]</value>
+      <webElementGuid>c044c45e-d6a0-4aa7-bae0-8edc696a53b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='sayang'])[2]/preceding::h6[1]</value>
-      <webElementGuid>58701281-ecce-4d3d-acdc-a2c035230951</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='new product'])[1]/preceding::h6[1]</value>
+      <webElementGuid>a8e3e364-25af-4391-ac32-e4aa2fdef6e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 2.000'])[1]/preceding::h6[1]</value>
-      <webElementGuid>d5ade676-ab92-42fd-a8e6-d24bddb79f65</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1'])[1]/preceding::h6[1]</value>
+      <webElementGuid>db4b04b5-c2a7-41d5-9c30-6f0de12a0f9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Penawaran produk ditolak']/parent::*</value>
+      <webElementGuid>b26e3082-6b28-4a93-a131-0767e1e5cb75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/div/div/h6</value>
-      <webElementGuid>a8f432c3-4c47-46e1-abb4-59f34e7089f4</webElementGuid>
+      <value>//h6</value>
+      <webElementGuid>8eb96573-73a6-4fea-ac13-0ec9460dcd0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h6[(text() = '&#xd;
-              Penawaran produk diterima&#xd;
-            ' or . = '&#xd;
-              Penawaran produk ditolak&#xd;
+      <value>//h6[(text() = '
+              Penawaran produk ditolak
+            ' or . = '
+              Penawaran produk ditolak
             ')]</value>
-      <webElementGuid>3a42569b-799e-4a68-bbe8-27ef0027a188</webElementGuid>
+      <webElementGuid>66afd57e-e84d-4532-ac4c-77f793212257</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

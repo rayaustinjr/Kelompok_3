@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFFER002 - As a buyer make product offer with login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fdf1a61-6f19-4513-9be8-f73dd2e1d5fc</testCaseGuid>
+</TestCaseEntity>

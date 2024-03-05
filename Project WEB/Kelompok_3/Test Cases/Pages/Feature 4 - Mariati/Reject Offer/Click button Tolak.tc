@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ecf486a0-9ace-4d14-b540-69263022e6ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c5514938-8175-44a5-b1c8-79ade1de2fe7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5514938-8175-44a5-b1c8-79ade1de2fe7</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
 </TestCaseEntity>

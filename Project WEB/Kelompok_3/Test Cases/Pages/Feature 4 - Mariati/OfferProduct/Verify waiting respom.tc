@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Offer001 - As buyer make product offer without login</name>
+   <name>Verify waiting respom</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>35a940f4-8a08-420e-ae22-0df3143cba33</testCaseGuid>
+   <testCaseGuid>c8636123-cbc4-4dde-96b7-c640fd5765b1</testCaseGuid>
 </TestCaseEntity>
