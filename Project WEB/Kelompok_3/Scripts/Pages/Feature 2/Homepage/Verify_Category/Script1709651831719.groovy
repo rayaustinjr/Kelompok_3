@@ -17,11 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Feature 5 - Aji/Search Product/Search Product'), [('searchKey') : 'baju muslim'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Feature 2/Notification Page/Verify Product Exist'), [('productName') : 'baju muslim'
-        , ('expected') : 'baju muslim'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Kategori_Product', [('category') : category]), 
+    expected)
 

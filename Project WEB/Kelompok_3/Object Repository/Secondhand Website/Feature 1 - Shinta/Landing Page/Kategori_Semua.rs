@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Telusuri Kategori'])[1]/following::a[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='$category'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1f9cc5ef-c9f2-4d0d-9f6e-20dd0f1452d4</webElementGuid>
+      <webElementGuid>c10d9f31-f4e5-44fd-8a96-e724a40726a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center active</value>
-      <webElementGuid>d5923ff8-9fa5-4a58-9571-235dfeabca3d</webElementGuid>
+      <webElementGuid>3a5bc422-ddfd-4ddf-ade9-86cdb4caf414</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/</value>
-      <webElementGuid>a8845d27-de2b-4eaa-8836-f1bc2aaed167</webElementGuid>
+      <webElementGuid>c5ea853c-2e61-4177-8ac5-29d5013558f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       
       Semua
 </value>
-      <webElementGuid>fa06afb6-7964-447e-aed4-74ba358e5ac3</webElementGuid>
+      <webElementGuid>f088d0e1-b408-4b36-8c6e-bea0b49c58ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container&quot;]/nav[@class=&quot;nav row gap-4 px-2 px-lg-0&quot;]/a[@class=&quot;btn btn-alt-primary col rounded-4 py-2 px-4 d-inline-flex align-items-center active&quot;]</value>
-      <webElementGuid>eef42f58-b082-4be2-b30a-ca34f6756310</webElementGuid>
+      <webElementGuid>d677068e-db4b-4d0a-97c6-be242883b53e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Telusuri Kategori'])[1]/following::a[1]</value>
-      <webElementGuid>82c45b57-21e7-48df-bf3a-0c07ffc44ef4</webElementGuid>
+      <webElementGuid>0977c380-d558-4049-a44a-c883bab892f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon Hingga'])[1]/following::a[1]</value>
-      <webElementGuid>0a203eb4-f316-44ab-9849-361993c488be</webElementGuid>
+      <webElementGuid>a11c7350-681c-4191-948d-e86b4db94065</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Semua']/parent::*</value>
-      <webElementGuid>c5be2c7e-54f9-4675-86c7-ba0993d90999</webElementGuid>
+      <webElementGuid>b00ffcaa-61f0-4164-bdbd-52c5dd235d07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/')])[3]</value>
-      <webElementGuid>1af36301-5cea-4e8d-8127-d3e46af361f5</webElementGuid>
+      <webElementGuid>f7fd249f-81fc-497a-a93f-d487baaaa030</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/a</value>
-      <webElementGuid>9cdaa52a-1f33-4289-915d-09acf1b6e3f4</webElementGuid>
+      <webElementGuid>8f18c5d0-929b-45d0-bd10-625645d40ce9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       
       Semua
 ')]</value>
-      <webElementGuid>c09fac55-f60c-4f9e-9e9b-2339157a42e6</webElementGuid>
+      <webElementGuid>631d6baa-5ac1-42d4-9230-b2abb6d7ba6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

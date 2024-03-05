@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Search Product</name>
+   <name>Click_Filter_Category</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6f5c2255-a949-4eeb-83f2-ac8fae87cf5a</testCaseGuid>
+   <testCaseGuid>ebd65e75-5e41-4799-aab9-2b86a97b462a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c9f49510-0520-4658-8f8e-0412c00d0efc</variableId>
+      <variableId>2b3ad1b8-a9a2-407a-aa2b-4ce955371b99</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c9f49510-0520-4658-8f8e-0412c00d0efc</id>
+      <id>2b3ad1b8-a9a2-407a-aa2b-4ce955371b99</id>
       <masked>false</masked>
-      <name>searchKey</name>
+      <name>category</name>
    </variable>
 </TestCaseEntity>
