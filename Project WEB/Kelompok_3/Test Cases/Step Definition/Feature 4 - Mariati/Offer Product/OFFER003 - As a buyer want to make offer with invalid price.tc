@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFFER003 - As a buyer want to make offer with invalid price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89db0f2b-2238-4732-ac85-638869ebe9e1</testCaseGuid>
+</TestCaseEntity>

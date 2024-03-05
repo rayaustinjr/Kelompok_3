@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click button Saya Tertarik dan Ingin Nego</name>
+   <name>OFFER004 - As a buyer want to make offer with alphabet</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>db183aaf-fd91-4763-865e-c733c41659ab</testCaseGuid>
+   <testCaseGuid>42dfffd4-f8e9-4b83-a3c5-712574850d41</testCaseGuid>
 </TestCaseEntity>

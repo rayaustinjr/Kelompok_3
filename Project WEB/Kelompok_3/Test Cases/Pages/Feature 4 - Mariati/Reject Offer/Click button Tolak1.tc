@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click button status offer</name>
+   <name>Click button Tolak1</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0b8ff2e5-a507-4621-b751-ca7e045f95c4</testCaseGuid>
+   <testCaseGuid>f783b020-9c50-4bd7-a368-31cfe35c9218</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>31fe9269-577f-49b8-959a-7e29dd742364</variableId>
+      <variableId>db9004a7-f09e-49de-97e1-c3883407ae18</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>31fe9269-577f-49b8-959a-7e29dd742364</id>
+      <id>db9004a7-f09e-49de-97e1-c3883407ae18</id>
       <masked>false</masked>
       <name>productName</name>
    </variable>
