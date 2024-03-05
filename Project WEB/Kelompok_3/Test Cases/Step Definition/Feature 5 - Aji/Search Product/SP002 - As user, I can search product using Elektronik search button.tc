@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP002 - As user, I can search product using Elektronik search button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51a1fc84-5ab1-44a4-bd1b-b52b18e931f6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP008 - As user, I can search using number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7fcde34-61b2-4475-8f0e-6a6bb058b5c8</testCaseGuid>
+</TestCaseEntity>

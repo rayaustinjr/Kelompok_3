@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Feature 5 - Aji/Search Product/Search Product'), [('searchKey') : 'baju muslim'], 
+WebUI.callTestCase(findTestCase('Pages/Feature 2/Homepage/Click_Filter_Category'), [('category') : 'Kesehatan', ('expected') : 'Kesehatan'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Feature 2/Notification Page/Verify Product Exist'), [('productName') : 'baju muslim'
-        , ('expected') : 'baju muslim'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 5 - Aji/Search Product/Search Product'), [('searchKey') : 'jamu'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 2/Homepage/Verify_Category'), [('category') : 'Kesehatan', ('expected') : 'Kesehatan'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

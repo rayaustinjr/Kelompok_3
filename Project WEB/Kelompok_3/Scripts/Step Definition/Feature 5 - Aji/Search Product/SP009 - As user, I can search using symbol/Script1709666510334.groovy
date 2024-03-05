@@ -17,5 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Secondhand Website/Feature 1 - Shinta/Landing Page/Kategori', [('category') : category]), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Feature 5 - Aji/Search Product/Search Product'), [('searchKey') : '!@#$%^'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Feature 2/List Product Page/Verify Product Exist'), [('productName') : '!@#$%^', ('expected') : '!@#$%^'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
