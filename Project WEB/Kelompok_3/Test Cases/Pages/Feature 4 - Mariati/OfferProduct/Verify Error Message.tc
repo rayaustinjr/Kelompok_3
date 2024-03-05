@@ -4,30 +4,30 @@
    <name>Verify Error Message</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d60f9513-971f-4eaf-9277-ddd444890299</testCaseGuid>
+   <testCaseGuid>871e13d7-73f4-4955-b9c6-bd78bf62cb96</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>51d5e586-7bbf-4e61-bdeb-77c9b1015881</variableId>
+      <variableId>8ebbad3d-c9d9-4b3f-a0b3-f067223e3d3f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>546b9b05-49cf-47bd-a8be-99747e59b91c</variableId>
+      <variableId>a906a52d-5d1c-43ab-9bd2-4d99a72cd3a0</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>51d5e586-7bbf-4e61-bdeb-77c9b1015881</id>
+      <id>8ebbad3d-c9d9-4b3f-a0b3-f067223e3d3f</id>
       <masked>false</masked>
       <name>ErrorText</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>546b9b05-49cf-47bd-a8be-99747e59b91c</id>
+      <id>a906a52d-5d1c-43ab-9bd2-4d99a72cd3a0</id>
       <masked>false</masked>
       <name>Expected</name>
    </variable>

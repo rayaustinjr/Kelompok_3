@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify status offer</name>
+   <name>Click button terima1</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d60f9513-971f-4eaf-9277-ddd444890299</testCaseGuid>
+   <testCaseGuid>c5b35205-cd34-457a-b37b-e22e9c1cc77f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>51d5e586-7bbf-4e61-bdeb-77c9b1015881</variableId>
+      <variableId>4f93bab0-9880-4847-84ad-8b9752707cb4</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>51d5e586-7bbf-4e61-bdeb-77c9b1015881</id>
+      <id>4f93bab0-9880-4847-84ad-8b9752707cb4</id>
       <masked>false</masked>
-      <name>status</name>
+      <name>productName</name>
    </variable>
 </TestCaseEntity>

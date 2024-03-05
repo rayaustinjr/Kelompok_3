@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search_ProductInput</name>
+   <name>RadioButton_Batalkan Transaksi</name>
    <tag></tag>
-   <elementGuidId>b5bf3237-0d90-46c9-965b-82f7e6b1b9af</elementGuidId>
+   <elementGuidId>2ad35239-a77f-4d54-90ac-bde8740d4c0e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;q&quot;]</value>
+         <value>#offer_status_cancelled</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='q']</value>
+         <value>//input[@id='offer_status_cancelled']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>971324c5-91a3-4d2c-857e-82fde6d13008</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>q</value>
-      <webElementGuid>00d66c00-e72c-47c8-86b7-99881769e282</webElementGuid>
+      <webElementGuid>b3a02ad1-f886-4024-9e77-629bc412c27f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control bg-transparent border-0 form-search</value>
-      <webElementGuid>df9271b1-ca23-415c-94cc-ca253da8b11f</webElementGuid>
+      <value>form-check-input me-2</value>
+      <webElementGuid>6d6b31df-4f78-41b7-824b-53fabd37fea7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>search</value>
-      <webElementGuid>4cda30ae-9150-49a5-a098-67f4c08fe764</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Cari di sini ...</value>
-      <webElementGuid>c2e08894-66a2-4b0d-bc58-10261f16e9cd</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>17ef7df7-7df6-445d-897f-803b94f32c5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Search</value>
-      <webElementGuid>c24e718b-1a09-4001-a5b3-89b03608d089</webElementGuid>
+      <value>cancelled</value>
+      <webElementGuid>9a51f52a-cd0f-40e6-a19f-aa979b396913</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>offer[status]</value>
+      <webElementGuid>74a70a8d-4ca9-4c0b-8b45-618b3f89af64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>offer_status_cancelled</value>
+      <webElementGuid>4471ab99-c2c9-4187-9be9-f3b571ba9777</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarSupportedContent&quot;)/form[@class=&quot;d-flex ms-0 ms-lg-4 my-4 my-lg-0&quot;]/div[@class=&quot;input-group rounded-pill bg-light p-1 search&quot;]/input[@class=&quot;form-control bg-transparent border-0 form-search&quot;]</value>
-      <webElementGuid>43a87399-1cf4-4eb5-bd3f-ec83d1d9fe1c</webElementGuid>
+      <value>id(&quot;statusModal90014&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/form[@class=&quot;modal-content px-4 py-2&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-check&quot;]/input[@id=&quot;offer_status_cancelled&quot;]</value>
+      <webElementGuid>9af9460c-5331-49d3-86ad-6034cae20eba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='q']</value>
-      <webElementGuid>85ea7f56-85cb-432d-846d-319ee3b23134</webElementGuid>
+      <value>//input[@id='offer_status_cancelled']</value>
+      <webElementGuid>df32d1ca-8d2b-40c3-91a4-172d958532ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarSupportedContent']/form/div/input</value>
-      <webElementGuid>1f7a32f2-db40-473b-adf8-96e09ddcd3fc</webElementGuid>
+      <value>//div[@id='statusModal90014']/div/form/div[2]/div[2]/input</value>
+      <webElementGuid>5b3f906b-7b61-403c-88eb-c35a2f4cacad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>a63498a6-db64-488f-95fe-96e53dd2be6b</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>1b9556f1-5809-4aee-bbf9-7e1361cc78b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'q' and @type = 'search' and @placeholder = 'Cari di sini ...']</value>
-      <webElementGuid>74ece4f4-1fbe-48aa-9688-0d999d291a9d</webElementGuid>
+      <value>//input[@type = 'radio' and @name = 'offer[status]' and @id = 'offer_status_cancelled']</value>
+      <webElementGuid>5d163e8e-85f0-4b16-bd81-d785b17e4088</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

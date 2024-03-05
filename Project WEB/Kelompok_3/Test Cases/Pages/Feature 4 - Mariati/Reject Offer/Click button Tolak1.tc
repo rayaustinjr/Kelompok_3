@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click button Tolak1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f783b020-9c50-4bd7-a368-31cfe35c9218</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db9004a7-f09e-49de-97e1-c3883407ae18</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db9004a7-f09e-49de-97e1-c3883407ae18</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REOF002 - Accept Product Offer and then reject it</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0e9011b-2af7-4643-9b24-dd4e45a43d03</testCaseGuid>
+</TestCaseEntity>

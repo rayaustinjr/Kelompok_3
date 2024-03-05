@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Offer003 - As a seller accept product offer</name>
+   <name>Verify waiting respom</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>08f37be7-e717-46ba-a244-cf0a8ef2ec20</testCaseGuid>
+   <testCaseGuid>8a8e2f01-43f2-4672-99ee-7f7572f2f69f</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,18 @@
    <name>Click button status offer</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>80adbd22-c3e2-40a2-8bfc-7f011146124f</testCaseGuid>
+   <testCaseGuid>0b8ff2e5-a507-4621-b751-ca7e045f95c4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31fe9269-577f-49b8-959a-7e29dd742364</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31fe9269-577f-49b8-959a-7e29dd742364</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
 </TestCaseEntity>
