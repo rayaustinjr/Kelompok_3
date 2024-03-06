@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DPM001 - User want to delete product</name>
+   <name>DELDJ001 - User want to delete product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>80ed30cc-9ac6-4c7a-8525-82919946c4fd</testCaseGuid>
