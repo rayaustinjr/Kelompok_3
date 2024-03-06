@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PDE001 - User want to preview product</name>
+   <name>PTE002 - User want to preview product with empty fields</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fa3760a6-3a3a-46cf-b95a-22c38915731c</testCaseGuid>
+   <testCaseGuid>06a00ef9-4bbd-4ece-a232-1e2abcf61ade</testCaseGuid>
 </TestCaseEntity>
