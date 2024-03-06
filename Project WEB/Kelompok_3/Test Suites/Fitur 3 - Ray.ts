@@ -15,14 +15,14 @@
       <guid>e62eb21c-2385-42bc-9cbe-31a64edd5ee6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step Definition/Feature 3 - Ray/Delete Product - Daftar Jual/DELDJ001 - User want to delete product</testCaseId>
+      <testCaseId>Test Cases/Step Definition/Feature 3 - Ray/Delete Product - Daftar Jual/DPM001 - User want to delete product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2ff79522-dc0f-43e0-88c2-f3758011c071</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Step Definition/Feature 3 - Ray/Delete Product - Daftar Jual/DELDJ002 - User want to delete product from page preview edit product</testCaseId>
+      <testCaseId>Test Cases/Step Definition/Feature 3 - Ray/Delete Product - Daftar Jual/DPM002 - User want to delete product from page preview edit product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

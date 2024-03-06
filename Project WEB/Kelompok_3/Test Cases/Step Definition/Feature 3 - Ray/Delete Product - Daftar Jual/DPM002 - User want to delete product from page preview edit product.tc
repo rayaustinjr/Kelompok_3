@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DELDJ002 - User want to delete product from page preview edit product</name>
+   <name>DPM002 - User want to delete product from page preview edit product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4e6d756f-b4bb-4d3d-aff5-06e0824b3f75</testCaseGuid>
