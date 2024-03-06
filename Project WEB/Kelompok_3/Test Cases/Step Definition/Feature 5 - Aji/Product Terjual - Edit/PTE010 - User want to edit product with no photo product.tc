@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PED002 - User want to preview product with empty fields</name>
+   <name>PTE010 - User want to edit product with no photo product</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>691e07eb-a940-44ed-9578-36730421c596</testCaseGuid>
+   <testCaseGuid>f5d1ae79-3f42-49ab-b7dd-313a5e81b9cc</testCaseGuid>
 </TestCaseEntity>

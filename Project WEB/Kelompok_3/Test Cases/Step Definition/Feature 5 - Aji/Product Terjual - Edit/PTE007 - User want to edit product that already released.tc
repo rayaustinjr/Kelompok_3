@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click button status offer</name>
+   <name>PTE007 - User want to edit product that already released</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0b8ff2e5-a507-4621-b751-ca7e045f95c4</testCaseGuid>
+   <testCaseGuid>eb909f25-550f-4f92-98f3-ed5615f21de5</testCaseGuid>
 </TestCaseEntity>
